@@ -14,19 +14,36 @@
 
 <body>
 
-<div class="page">
+<div id="main"> <!-- start page -->
 
-<!-- pure grid group -->
-<div class="pure-g">
-    <div class="pure-u-1-1">
+<!-- Title and description -->
       <h1>THE World University Rankings</h1>
-      <p>Some text here</p>
-    </div>
-  </div>
-  <!-- end pure grid group -->
+      <h3>From 2011 - 2023</h3>
+      <p id="main_para">The Times Higher Education (THE) World University Rankings provides definitive source of data on higher education in the world. 
+        It is the only measurement evaluating universities for teaching, research, knowledge transfer, and international outlook while also emphasising on 
+        the universities' research. THE uses 13 carefully calibrated performance metrics to provide the most comprehensive and balanced comparisons. Thus, 
+        it is one of the most popular and widely used world university rankings in the education industry.</p>
+  <!-- end Title and description -->
 
-</div>
-  
+  <!-- group 1 -->
+  <div id="group">
+        <h2>Distribution of Universities</h2>
+        <p id="sub_para">Some text here</p>
+
+        <div class="vis_container">
+            <div id="choropleth_map"></div>
+            <script type="text/javascript">
+            
+            var spec1 = "js/choropleth_map.vg.json";
+            vegaEmbed('#choropleth_map', spec1).then(function(result) {
+                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+  </div>
+  <!-- end group 1 -->
+
+</div> <!-- end page -->
 
 
 </body>

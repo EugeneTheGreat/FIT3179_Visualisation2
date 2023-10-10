@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Percentage Distribution of Ranked Universities Across Countries in 2023",
-  "width": 1000,
-  "height": 500,
+  "width": 1200,
+  "height": 600,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Homework9/main/js/ne_110m.topojson",

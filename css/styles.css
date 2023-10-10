@@ -1,8 +1,56 @@
+h1 {
+	padding-top: 30px;
+    font-size: 65px;
+    text-align: center;
+	line-height: 0px;
+}
+
+h2 {
+	padding-top: 30px;
+	padding-left: 50px;
+    font-size: 40px;
+    text-align: left;
+	line-height: 0px;
+}
+
+h3 {
+	padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+	line-height: 0px;
+}
+
+p{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom:5px;
+	text-align: justify;
+}
+
+#main {
+	width: 1600px; margin: 0 auto; overflow: hidden;
+}
+
+#main_para {
+	font-size: 20px;
+}
+
+#sub_para {
+	font-size: 20px;
+}
+
+#group {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 #choropleth_map {
-	top:100px;
 	bottom: 100px; 
 	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
+	margin-top: 100px;
+}
+
+.vis-container {
+	display: block;
+    width: 100%;
 }

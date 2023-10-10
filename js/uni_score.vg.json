@@ -1,0 +1,125 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Overall Score Of World Universities In 2023",
+    "description": "Overall Score Of World Universities In 2023",
+    "data": {"url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Homework10/main/data/cleaned_2023_rank.csv"},
+    "encoding": {
+        "x": {
+            "field": "scores_overall",
+            "type": "quantitative",
+            "title": "Overall Score"
+        },
+        "y": {
+            "type": "nominal",
+            "field": "name",
+            "title": "University"
+        }
+    },
+    "transform": [
+        {
+            "filter": "Country_selection == null || datum.location == Country_selection"
+        }
+    ],
+    "params": [
+        {
+            "name": "Country_selection",
+            "bind": {
+              "input": "select",
+              "options": [
+                null,
+                "United Kingdom", 
+                "United States", 
+                "Switzerland", 
+                "China",
+                "Canada", 
+                "Singapore", 
+                "Germany", 
+                "Hong Kong", 
+                "Australia",
+                "Japan", 
+                "Belgium", 
+                "France", 
+                "Sweden", 
+                "South Korea",
+                "Netherlands", 
+                "Saudi Arabia", 
+                "Finland", 
+                "Denmark", 
+                "Austria",
+                "Norway", 
+                "New Zealand", 
+                "South Africa", 
+                "Italy", 
+                "Ireland",
+                "Russian Federation", 
+                "Spain", 
+                "Taiwan"
+              ],
+              "labels": [
+                "show all",
+                "United Kingdom", 
+                "United States", 
+                "Switzerland", 
+                "China",
+                "Canada", 
+                "Singapore", 
+                "Germany", 
+                "Hong Kong", 
+                "Australia",
+                "Japan", 
+                "Belgium", 
+                "France", 
+                "Sweden", 
+                "South Korea",
+                "Netherlands", 
+                "Saudi Arabia", 
+                "Finland", 
+                "Denmark", 
+                "Austria",
+                "Norway", 
+                "New Zealand", 
+                "South Africa", 
+                "Italy", 
+                "Ireland",
+                "Russia", 
+                "Spain", 
+                "Taiwan"
+              ],
+              "name": "Country Selection: "
+            }
+          }
+    ],
+    "layer": [
+        {
+            "mark": "bar",
+            "encoding": {
+                "tooltip": [
+                    { "field" : "name", "type" : "nominal", "title": "University" },
+                    { "field" : "location", "type" : "nominal", "title": "Location" },
+                    { "field" : "scores_overall", "type" : "quantitative", "title": "Overall Score" }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "dx": 50,
+                "fontSize": 11.5,
+                "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": {"field": "scores_overall", "type": "quantitative"},
+                "opacity": {
+                    "condition" : {
+                        "test" : "datum.name == 'University of Oxford' || datum.name == 'Harvard University' || datum.name == 'University of Cambridge' || datum.name == 'University of Reading'",
+                        "value" : 1
+                        },
+                        "value" : 0
+                }
+            }
+        }
+    ]
+    
+  }

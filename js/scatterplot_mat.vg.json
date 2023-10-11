@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Correlation Between Factors Influencing University Ranking",
+  "repeat": {
+    "row": [
+      "rank",
+      "scores_overall",
+      "scores_teaching",
+      "scores_international_outlook",
+      "scores_industry_income",
+      "scores_research",
+      "scores_citations"
+    ],
+    "column": [
+        "rank",
+        "scores_overall",
+        "scores_teaching",
+        "scores_international_outlook",
+        "scores_industry_income",
+        "scores_research",
+        "scores_citations"
+    ]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged.csv"
+  },
+  "spec": {
+    "width": 90,
+    "height": 90,
+    "layer": [
+      {
+        "params": [
+          {
+            "name": "brush",
+            "select": { "type": "interval", "resolve": "global" }
+          },
+          {
+            "name": "Year",
+            "select": { "type": "point", "fields": ["year"] },
+            "bind": "legend"
+          }
+        ],
+        "mark": "point",
+        "encoding": {
+          "x": {
+            "field": { "repeat": "column" },
+            "type": "quantitative"
+          },
+          "y": {
+            "field": { "repeat": "row" },
+            "type": "quantitative",
+            "axis": {
+              "minExtent": 30
+            }
+          },
+          "color": {
+            "condition": {
+              "param": "brush",
+              "field": "year",
+              "type": "nominal",
+              "legend": {
+                "titleFontSize": 15,
+                "labelFontSize": 12
+              },
+              "scale": {
+                "scheme": "darkgreen"
+              }
+            },
+            "value": "grey"
+          },
+          "opacity": {
+            "condition": { "param": "Year", "value": 0.3 },
+            "value": 0.005
+          }
+        }
+      }
+    ]
+  }
+}

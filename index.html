@@ -81,6 +81,49 @@
   </div>
   <!-- end group 2 -->
 
+  <!-- group 3 -->
+  <div id="group">
+    <h2>How Factors Influence Rankings</h2>
+    <p id="sub_para">Some text here...</p>
+
+    <div class="vis-container">
+      <div id="scatterplot_mat"></div>
+
+        <script type="text/javascript">
+
+        var spec4 = "js/scatterplot_mat.vg.json";
+        vegaEmbed('#scatterplot_mat', spec4).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+    </div>
+  </div>
+  <!-- end group 3 -->
+
+  <!-- group 4 -->
+  <div class="row">
+
+    <h2>Trend Over The Years</h2>
+
+    <div class="column">
+      <p id="sub_para">Some text here...</p>
+
+      <div class="vis-container">
+        
+      </div>
+    </div>
+
+    <div class="column">
+      <p id="sub_para">Some text here...</p>
+      
+      <div class="vis-container">
+        
+      </div>
+    </div>
+
+  </div>
+  <!-- end group 4 -->
+
 </div> <!-- end page -->
 
 </body>

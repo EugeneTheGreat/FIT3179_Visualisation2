@@ -51,17 +51,24 @@ p{
 	margin-bottom: 50px;
 }
 
+#scatterplot_mat {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
 #simple_dot {
 	margin-left: 100px;
 	margin-right: 50px;
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 50px;
 }
 
 #simple_dot2 {
 	margin-left: 50px;
 	margin-right: 100px;
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 50px;
 }
 

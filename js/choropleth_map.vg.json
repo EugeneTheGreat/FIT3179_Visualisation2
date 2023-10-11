@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Percentage Distribution of Ranked Universities Across Countries in 2023",
+  "title": "Percentage Distribution of Ranked Universities Across Countries",
   "width": 1200,
-  "height": 600,
+  "height": 550,
   "projection": {"type": "equalEarth"},
 
   "params": [
@@ -49,7 +49,9 @@
         }
       ],
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white", "strokeWidth": 0.5},
-      "encoding": {"tooltip": {"field": "note"}}
+      "encoding": {
+        "tooltip": {"field": "note"}
+      }
     },
     {
       "data": {
@@ -81,7 +83,15 @@
         },
         {"filter": "datum.year == year_selection"}
       ],
-      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+      "params": [{
+        "name": "hover_area",
+        "select": {
+          "type": "point",
+          "on": "mouseover",
+          "clear": "mouseout"
+        }
+      }],
+      "mark": {"type": "geoshape"},
       "encoding": {
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
@@ -96,7 +106,23 @@
         "tooltip": [
           {"field": "location", "type": "nominal", "title": "Country"},
           {"field": "dist_percentage", "type": "nominal", "title": "Percentage"}
-        ]
+        ],
+        "stroke": {
+          "condition": {
+            "param": "hover_area",
+            "empty": false,
+            "value": "black"
+          },
+          "value": "white"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hover_area",
+            "empty": false,
+            "value": 1
+          },
+          "value": 0.5
+        }
       }
     },
     {

@@ -28,7 +28,7 @@ p{
 }
 
 #main {
-	width: 1600px; margin: 0 auto; overflow: hidden;
+	width: 1450px; margin: 0 auto; overflow: hidden;
 }
 
 #main_para {
@@ -40,17 +40,17 @@ p{
 }
 
 #group {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #choropleth_map {
-	bottom: 100px; 
-	left: 100px;
-	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .vis-container {
-	display: block;
     width: 100%;
 }

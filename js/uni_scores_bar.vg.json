@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Ranking of World Universities",
-    "description": "Ranking of World Universities",
+    "title": "Scores of World Ranked Universities",
+    "description": "Scores of World Ranked Universities",
     "data": {"url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged.csv"},
     "params": [
         { "name": "year_selection", 
@@ -16,9 +16,9 @@
     ],
     "encoding": {
         "x": {
-            "field": "rank",
+            "field": "scores_overall",
             "type": "quantitative",
-            "title": "University Ranking"
+            "title": "Overall Score"
         },
         "y": {
             "field": "name",
@@ -42,7 +42,7 @@
                 "tooltip": [
                     { "field" : "name", "type" : "nominal", "title": "University" },
                     { "field" : "location", "type" : "nominal", "title": "Location" },
-                    { "field" : "rank", "type" : "quantitative", "title": "Ranking" }
+                    { "field" : "scores_overall", "type" : "quantitative", "title": "Overall Score" }
                 ]
             }
         },
@@ -56,7 +56,7 @@
                 "fontStyle": "italic"
             },
             "encoding": {
-                "text": {"field": "rank", "type": "quantitative"},
+                "text": {"field": "scores_overall", "type": "quantitative"},
                 "opacity": {
                     "condition" : {
                         "test" : "datum.rank == '1' || datum.rank == '2' || datum.rank == '3'",

@@ -14,7 +14,7 @@
 
 <body>
 
-<div id="main"> <!-- start page -->
+<div id="main", class="page"> <!-- start page -->
 
 <!-- Title and description -->
       <h1>THE World University Rankings</h1>
@@ -27,24 +27,61 @@
 
   <!-- group 1 -->
   <div id="group">
-        <h2>Distribution of Universities</h2>
-        <p id="sub_para">Some text here</p>
+    <h2>Distribution of Universities</h2>
+    <p id="sub_para">Some text here...</p>
 
-        <div class="vis_container">
-            <div id="choropleth_map"></div>
-            <script type="text/javascript">
-            
-            var spec1 = "js/choropleth_map.vg.json";
-            vegaEmbed('#choropleth_map', spec1).then(function(result) {
-                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            </script>
-        </div>
+    <div class="vis-container">
+      <div id="choropleth_map"></div>
+
+      <script type="text/javascript">
+
+        var spec1 = "js/choropleth_map.vg.json";
+        vegaEmbed('#choropleth_map', spec1).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+    </div>
   </div>
   <!-- end group 1 -->
 
-</div> <!-- end page -->
+  <!-- group 2 -->
+  <div class="row">
 
+    <h2>University Rankings & Scorings</h2>
+    <p id="sub_para">Some text here...</p>
+
+    <div class="column">
+      <div class="vis-container">
+        <div id="bar_chart"></div>
+
+        <script type="text/javascript">
+
+        var spec2 = "js/uni_ranking_bar.vg.json";
+        vegaEmbed('#bar_chart', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="vis-container">
+        <div id="bar_chart2"></div>
+
+        <script type="text/javascript">
+
+        var spec3 = "js/uni_scores_bar.vg.json";
+        vegaEmbed('#bar_chart2', spec3).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+      </div>
+    </div>
+
+  </div>
+  <!-- end group 2 -->
+
+</div> <!-- end page -->
 
 </body>
 </html>

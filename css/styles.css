@@ -27,6 +27,11 @@ p{
 	text-align: justify;
 }
 
+#group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 #main {
 	width: 1450px; margin: 0 auto; overflow: hidden;
 }
@@ -39,12 +44,21 @@ p{
 	font-size: 20px;
 }
 
-#group {
-	margin-top: 10px;
-	margin-bottom: 10px;
+#choropleth_map {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-#choropleth_map {
+#bar_chart {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#bar_chart2 {
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
@@ -53,4 +67,16 @@ p{
 
 .vis-container {
     width: 100%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;	
+	clear: both;
 }

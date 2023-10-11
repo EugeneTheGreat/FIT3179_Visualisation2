@@ -10,12 +10,13 @@
     "name": "year_selection",
     "value": 2023,
     "bind": {
-    "input": "range",
-    "min": 2011,
-    "max": 2023,
-    "step": 1,
-    "name": "Select Year: "
-    }}
+      "input": "range",
+      "min": 2011,
+      "max": 2023,
+      "step": 1,
+      "name": "Select Year: "
+    }
+  }
   ],
   
   "layer": [

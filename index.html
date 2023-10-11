@@ -52,12 +52,12 @@
 
     <div class="column">
       <div class="vis-container">
-        <div id="bar_chart"></div>
+        <div id="simple_dot"></div>
 
         <script type="text/javascript">
 
-        var spec2 = "js/uni_ranking_bar.vg.json";
-        vegaEmbed('#bar_chart', spec2).then(function(result) {
+        var spec2 = "js/uni_ranking_simple_dot.vg.json";
+        vegaEmbed('#simple_dot', spec2).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
       </script>
@@ -66,12 +66,12 @@
 
     <div class="column">
       <div class="vis-container">
-        <div id="bar_chart2"></div>
+        <div id="simple_dot2"></div>
 
         <script type="text/javascript">
 
-        var spec3 = "js/uni_scores_bar.vg.json";
-        vegaEmbed('#bar_chart2', spec3).then(function(result) {
+        var spec3 = "js/uni_scores_simple_dot.vg.json";
+        vegaEmbed('#simple_dot2', spec3).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
       </script>

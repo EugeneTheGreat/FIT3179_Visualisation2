@@ -33,7 +33,9 @@ p{
 }
 
 #main {
-	width: 1450px; margin: 0 auto; overflow: hidden;
+	width: 1450px; 
+	margin: 0 auto; 
+	overflow: hidden;
 }
 
 #main_para {
@@ -42,6 +44,12 @@ p{
 
 #sub_para {
 	font-size: 20px;
+}
+
+#filter_button {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
 }
 
 #choropleth_map {
@@ -58,14 +66,112 @@ p{
 	margin-bottom: 50px;
 }
 
-#simple_dot {
+#simple_dot_rank_1 {
 	margin-left: 100px;
 	margin-right: 50px;
 	margin-top: 10px;
 	margin-bottom: 50px;
 }
 
-#simple_dot2 {
+#simple_dot_rank_2 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_rank_3 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_rank_4 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_rank_5 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_rank_6 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_rank_7 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_rank_8 {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_1 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_2 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_3 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_4 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_5 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_6 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_7 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#simple_dot_score_8 {
 	margin-left: 50px;
 	margin-right: 100px;
 	margin-top: 10px;
@@ -80,10 +186,23 @@ p{
 	float: left;
 	width: 50%;
 }
-  
-/* Clear floats after the columns */
+
 .row:after {
 	content: "";
 	display: table;	
 	clear: both;
+}
+
+.buttons { 
+	display: flex;
+    justify-content: space-around;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.buttons button { 
+	width: 100%;
+    margin: 10px;
 }

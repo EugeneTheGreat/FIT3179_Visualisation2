@@ -22,7 +22,7 @@
     ]
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged.csv"
+    "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/merged_rank_scat_mat.csv"
   },
   "spec": {
     "width": 90,

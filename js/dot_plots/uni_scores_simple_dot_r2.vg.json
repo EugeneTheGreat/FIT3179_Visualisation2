@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Overall Scoring of World Universities",
+    "width": 320,
+    "height": 650,
+    "description": "Overall Scoring of World Universities",
+    "data": {
+      "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged.csv",
+      "format": {
+          "type": "csv",
+          "parse": {"rank": "number"}
+      }
+    },
+    "params": [
+      { "name": "Year_Selection", 
+        "value": 2023, 
+        "bind": {
+          "input": "range", 
+          "min": 2011, 
+          "max": 2023, 
+          "step": 1, 
+          "name": "Select Year: " 
+      }}
+    ],
+    "transform": [
+        {"filter": "datum.year == Year_Selection"},
+        {"filter": {"field": "rank", "range":[26, 50]}}
+    ],
+    "encoding": {
+      "x": {
+        "field": "scores_overall",
+        "type": "quantitative",
+        "title": "Overall Scoring"
+      },
+      "y": {
+        "field": "name", 
+        "type": "nominal", 
+        "title": "University Name",
+        "sort": "-x"
+      }
+    },
+    "layer": [
+      {
+        "mark": "rule",
+        "encoding": {
+          "size": {"value": 4},
+          "color": {
+            "value": "darkgreen"
+          },
+          "tooltip": [
+            { "field" : "name", "type" : "nominal", "title": "University" },
+            { "field" : "location", "type" : "nominal", "title": "Location" },
+            { "field" : "scores_overall", "type" : "quantitative", "title": "Overall Scoring" }
+          ]
+       }
+      },
+      {
+        "mark": "circle",
+        "encoding": {
+          "size": {"value": 300},
+          "color": {
+            "value": "darkgreen"
+          },
+          "opacity": {"value": 1},
+          "tooltip": [
+            { "field" : "name", "type" : "nominal", "title": "University" },
+            { "field" : "location", "type" : "nominal", "title": "Location" },
+            { "field" : "scores_overall", "type" : "quantitative", "title": "Overall Scoring" }
+          ]
+        }
+      },
+      {
+          "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "middle",
+              "dx": 50,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+          },
+          "encoding": {
+              "text": {"field": "scores_overall", "type": "quantitative"},
+              "opacity": {
+                  "condition" : {
+                      "test" : "datum.rank == '1' || datum.rank == '2' || datum.rank == '3'",
+                      "value" : 1
+                      },
+                      "value" : 0
+              }
+          }
+      }
+    ]
+  }

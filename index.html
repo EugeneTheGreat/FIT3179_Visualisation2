@@ -52,31 +52,185 @@
     <h2>University Rankings & Scorings</h2>
     <p id="sub_para">University of Oxford has been ranked the top 1 university in the world for 7 consecutive years since 2017. </p>
 
+    <p id="filter_button">Select the range of university rankings below:</p>
+    <!-- Buttons -->
+    <div class="buttons">
+      <button type="button" id="r1Button" onclick="toggleRankVisibilityTop20()">Top 25</button> 
+      <button type="button" id="r2Button" onclick="toggleRankVisibility21To50()">26 - 50</button> 
+      <button type="button" id="r3Button" onclick="toggleRankVisibility51To75()">51 - 75</button> 
+      <button type="button" id="r4Button" onclick="toggleRankVisibility76To100()">76 - 100</button> 
+      <button type="button" id="r5Button" onclick="toggleRankVisibility101To125()">101 - 125</button> 
+      <button type="button" id="r6Button" onclick="toggleRankVisibility126To150()">126 - 150</button> 
+      <button type="button" id="r7Button" onclick="toggleRankVisibility151To175()">151 - 175</button> 
+      <button type="button" id="r8Button" onclick="toggleRankVisibility176To200()">176 - 200</button>
+    </div>
+    <!-- end Buttons --> 
+
     <div class="column">
       <div class="vis-container">
-        <div id="simple_dot"></div>
+        <div id="simple_dot_rank_1">
+            <script type="text/javascript">
 
-        <script type="text/javascript">
+              var spec2_1 = "js/dot_plots/uni_ranking_simple_dot_r1.vg.json";
+              vegaEmbed('#simple_dot_rank_1', spec2_1).then(function(result) {
+                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+              }).catch(console.error);
+            </script>          
+        </div>
 
-        var spec2 = "js/uni_ranking_simple_dot.vg.json";
-        vegaEmbed('#simple_dot', spec2).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
-      </script>
+        <div id="simple_dot_rank_2" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_2 = "js/dot_plots/uni_ranking_simple_dot_r2.vg.json";
+            vegaEmbed('#simple_dot_rank_2', spec2_2).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
+
+        <div id="simple_dot_rank_3" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_3 = "js/dot_plots/uni_ranking_simple_dot_r3.vg.json";
+            vegaEmbed('#simple_dot_rank_3', spec2_3).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
+
+        <div id="simple_dot_rank_4" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_4 = "js/dot_plots/uni_ranking_simple_dot_r4.vg.json";
+            vegaEmbed('#simple_dot_rank_4', spec2_4).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
+
+        <div id="simple_dot_rank_5" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_5 = "js/dot_plots/uni_ranking_simple_dot_r5.vg.json";
+            vegaEmbed('#simple_dot_rank_5', spec2_5).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
+
+        <div id="simple_dot_rank_6" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_6 = "js/dot_plots/uni_ranking_simple_dot_r6.vg.json";
+            vegaEmbed('#simple_dot_rank_6', spec2_6).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
+
+        <div id="simple_dot_rank_7" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_7 = "js/dot_plots/uni_ranking_simple_dot_r7.vg.json";
+            vegaEmbed('#simple_dot_rank_7', spec2_7).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
+
+        <div id="simple_dot_rank_8" style="display: none;">
+          <script type="text/javascript">
+
+            var spec2_8 = "js/dot_plots/uni_ranking_simple_dot_r8.vg.json";
+            vegaEmbed('#simple_dot_rank_8', spec2_8).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>          
+        </div>
       </div>
     </div>
 
     <div class="column">
       <div class="vis-container">
-        <div id="simple_dot2"></div>
+        <div id="simple_dot_score_1">
+          <script type="text/javascript">
 
-        <script type="text/javascript">
+            var spec3_1 = "js/dot_plots/uni_scores_simple_dot_r1.vg.json";
+            vegaEmbed('#simple_dot_score_1', spec3_1).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
 
-        var spec3 = "js/uni_scores_simple_dot.vg.json";
-        vegaEmbed('#simple_dot2', spec3).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
-      </script>
+        <div id="simple_dot_score_2" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_2 = "js/dot_plots/uni_scores_simple_dot_r2.vg.json";
+            vegaEmbed('#simple_dot_score_2', spec3_2).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+
+        <div id="simple_dot_score_3" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_3 = "js/dot_plots/uni_scores_simple_dot_r3.vg.json";
+            vegaEmbed('#simple_dot_score_3', spec3_3).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+
+        <div id="simple_dot_score_4" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_4 = "js/dot_plots/uni_scores_simple_dot_r4.vg.json";
+            vegaEmbed('#simple_dot_score_4', spec3_4).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+
+        <div id="simple_dot_score_5" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_5 = "js/dot_plots/uni_scores_simple_dot_r5.vg.json";
+            vegaEmbed('#simple_dot_score_5', spec3_5).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+
+        <div id="simple_dot_score_6" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_6 = "js/dot_plots/uni_scores_simple_dot_r6.vg.json";
+            vegaEmbed('#simple_dot_score_6', spec3_6).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+
+        <div id="simple_dot_score_7" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_7 = "js/dot_plots/uni_scores_simple_dot_r7.vg.json";
+            vegaEmbed('#simple_dot_score_7', spec3_7).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
+
+        <div id="simple_dot_score_8" style="display: none;">
+          <script type="text/javascript">
+
+            var spec3_8 = "js/dot_plots/uni_scores_simple_dot_r8.vg.json";
+            vegaEmbed('#simple_dot_score_8', spec3_8).then(function(result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+            </script>
+        </div>
       </div>
     </div>
 
@@ -127,6 +281,8 @@
   <!-- end group 4 -->
 
 </div> <!-- end page -->
+
+<script src="js/toggle_ranking_charts.js"></script>
 
 </body>
 </html>

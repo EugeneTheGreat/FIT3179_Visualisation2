@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Ranking of World Universities",
     "width": 320,
-    "height": 4200,
+    "height": 650,
     "description": "Ranking of World Universities",
     "data": {
       "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged.csv",
@@ -23,7 +23,8 @@
       }}
     ],
     "transform": [
-        {"filter": "datum.year == Year_Selection"}
+        {"filter": "datum.year == Year_Selection"},
+        {"filter": {"field": "rank", "range":[51, 75]}}
     ],
     "encoding": {
       "x": {

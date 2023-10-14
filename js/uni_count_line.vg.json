@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/country_uni_counts_merged_continents.csv"
+  },
+  "width": 600,
+  "height": 550,
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "axis": {
+            "title": "Year",
+            "labelAngle": 45
+          }
+        },
+        "y": {
+          "field": "count",
+          "aggregate": "sum",
+          "type": "quantitative",
+          "title": "Total Universities"
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "legend": {
+            "orient": "top-left",
+            "titleFontSize": 15,
+            "labelFontSize": 12
+          },
+          "scale": {
+            "range": [
+              "#937cb0",
+              "#3a1a1b",
+              "#6e994a",
+              "#be9759",
+              "#5674af",
+              "#b84853"
+            ]
+          }
+        }
+      },
+      "layer": [
+        { "mark": "line" },
+        {
+          "params": [
+            {
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }
+          ],
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "filter": {
+            "param": "label",
+            "empty": false
+          }
+        }
+      ],
+      "layer": [
+        {
+          "mark": { "type": "rule", "color": "lightgray" },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "ordinal"
+            }
+          }
+        },
+        {
+          "encoding": {
+            "text": {
+              "field": "count",
+              "aggregate": "sum",
+              "type": "quantitative"
+            },
+            "x": {
+              "type": "ordinal",
+              "field": "year"
+            },
+            "y": {
+              "field": "count",
+              "aggregate": "sum",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              { "field": "Continent" },
+              {
+                "field": "count",
+                "aggregate": "sum",
+                "type": "quantitative"
+              }
+            ]
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              },
+              "encoding": {
+                "color": { "field": "Continent", "type": "nominal" }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

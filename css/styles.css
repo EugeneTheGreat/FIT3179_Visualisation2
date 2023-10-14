@@ -178,6 +178,20 @@ p{
 	margin-bottom: 50px;
 }
 
+#line1 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#histogram {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
 .vis-container {
     width: 100%;
 }

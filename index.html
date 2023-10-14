@@ -259,17 +259,25 @@
   <!-- group 4 -->
   <div class="row">
 
-    <h2>Trend Over The Years</h2>
-
     <div class="column">
+      <h2>Trend Over The Years</h2>
       <p id="sub_para">Some text here...</p>
 
       <div class="vis-container">
-        
+        <div id="line1"></div>
+
+        <script type="text/javascript">
+          var spec5 = "js/uni_count_line.vg.json";
+
+          vegaEmbed('#line1', spec5).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
       </div>
     </div>
 
     <div class="column">
+      <h2>Ranking Distribution</h2>
       <p id="sub_para">Some text here...</p>
 
       <div class="vis-container">

@@ -297,12 +297,41 @@
   <!-- end group 4 -->
 
   <!-- group 5 -->
-  <div id="group">
+  <div id="group", class="row">
     <h2>Comparing Statistics</h2>
     <p id="sub_para">Some text here...</p>
 
-    <div class="vis-container">
+    <div class="columns_3">
+      <p id="sub_para">Some text here...</p>
     </div>
+
+    <div class="columns_3">
+     <div class="vis-container">
+      <div id="radar1">
+        <script type="text/javascript">
+
+          var spec7 = "js/radars/radar_stats_2023.vg.json";
+          vegaEmbed('#radar1', spec7).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>          
+      </div>
+     </div>
+    </div>
+
+    <div class="columns_3">
+      <div class="vis-container">
+       <div id="radar2">
+         <script type="text/javascript">
+ 
+           var spec8 = "js/radars/radar_stats2_2023.vg.json";
+           vegaEmbed('#radar2', spec8).then(function(result) {
+             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+           }).catch(console.error);
+         </script>          
+       </div>
+      </div>
+     </div>
   </div>
   <!-- end group 5 -->
 

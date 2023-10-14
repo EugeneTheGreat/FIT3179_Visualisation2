@@ -1,301 +1,301 @@
 ,name,key,value
-0,University of Oxford,Overall Score,96.4
-1,Harvard University,Overall Score,95.2
-2,University of Cambridge,Overall Score,94.8
-3,Stanford University,Overall Score,94.8
-4,Massachusetts Institute of Technology,Overall Score,94.2
-5,California Institute of Technology,Overall Score,94.1
-6,Princeton University,Overall Score,92.4
-7,"University of California, Berkeley",Overall Score,92.1
-8,Yale University,Overall Score,91.4
-9,Imperial College London,Overall Score,90.4
-10,Columbia University,Overall Score,89.4
-11,ETH Zurich,Overall Score,89.4
-12,The University of Chicago,Overall Score,88.9
-13,University of Pennsylvania,Overall Score,88.8
-14,Johns Hopkins University,Overall Score,88.3
-15,Tsinghua University,Overall Score,88.2
-16,Peking University,Overall Score,88.1
-17,University of Toronto,Overall Score,87.4
-18,National University of Singapore,Overall Score,87.1
-19,Cornell University,Overall Score,85.9
-20,"University of California, Los Angeles",Overall Score,85.8
-21,UCL,Overall Score,85.7
-22,University of Michigan-Ann Arbor,Overall Score,82.9
-23,New York University,Overall Score,82.7
-24,Duke University,Overall Score,82.6
-25,Northwestern University,Overall Score,82.1
-26,University of Washington,Overall Score,82.1
-27,Carnegie Mellon University,Overall Score,81.1
-28,University of Edinburgh,Overall Score,79.8
-29,Technical University of Munich,Overall Score,79.3
-30,University of Hong Kong,Overall Score,78.5
-31,"University of California, San Diego",Overall Score,78.1
-32,LMU Munich,Overall Score,77.7
-33,University of Melbourne,Overall Score,77.6
-34,King’s College London,Overall Score,77.1
-35,"Nanyang Technological University, Singapore",Overall Score,77.0
-36,London School of Economics and Political Science,Overall Score,76.5
-37,Georgia Institute of Technology,Overall Score,76.0
-38,The University of Tokyo,Overall Score,75.9
-39,University of British Columbia,Overall Score,75.7
-40,École Polytechnique Fédérale de Lausanne,Overall Score,75.4
-41,KU Leuven,Overall Score,74.6
-42,Universität Heidelberg,Overall Score,74.1
-43,Monash University,Overall Score,73.6
-44,Chinese University of Hong Kong,Overall Score,73.2
-45,McGill University,Overall Score,73.0
-46,Paris Sciences et Lettres – PSL Research University Paris,Overall Score,72.9
-47,University of Illinois at Urbana-Champaign,Overall Score,72.7
-48,Karolinska Institute,Overall Score,72.4
-49,University of Texas at Austin,Overall Score,72.3
-50,University of Oxford,Teaching Score,92.3
-51,Harvard University,Teaching Score,94.8
-52,University of Cambridge,Teaching Score,90.9
-53,Stanford University,Teaching Score,94.2
-54,Massachusetts Institute of Technology,Teaching Score,90.7
-55,California Institute of Technology,Teaching Score,90.9
-56,Princeton University,Teaching Score,87.6
-57,"University of California, Berkeley",Teaching Score,86.4
-58,Yale University,Teaching Score,92.6
-59,Imperial College London,Teaching Score,82.8
-60,Columbia University,Teaching Score,89.4
-61,ETH Zurich,Teaching Score,82.6
-62,The University of Chicago,Teaching Score,86.5
-63,University of Pennsylvania,Teaching Score,86.0
-64,Johns Hopkins University,Teaching Score,79.4
-65,Tsinghua University,Teaching Score,90.1
-66,Peking University,Teaching Score,92.5
-67,University of Toronto,Teaching Score,77.3
-68,National University of Singapore,Teaching Score,76.4
-69,Cornell University,Teaching Score,80.2
-70,"University of California, Los Angeles",Teaching Score,80.4
-71,UCL,Teaching Score,74.5
-72,University of Michigan-Ann Arbor,Teaching Score,79.3
-73,New York University,Teaching Score,74.2
-74,Duke University,Teaching Score,78.1
-75,Northwestern University,Teaching Score,71.7
-76,University of Washington,Teaching Score,71.6
-77,Carnegie Mellon University,Teaching Score,65.4
-78,University of Edinburgh,Teaching Score,66.9
-79,Technical University of Munich,Teaching Score,69.8
-80,University of Hong Kong,Teaching Score,65.6
-81,"University of California, San Diego",Teaching Score,60.2
-82,LMU Munich,Teaching Score,67.3
-83,University of Melbourne,Teaching Score,67.1
-84,King’s College London,Teaching Score,58.0
-85,"Nanyang Technological University, Singapore",Teaching Score,60.9
-86,London School of Economics and Political Science,Teaching Score,59.2
-87,Georgia Institute of Technology,Teaching Score,60.2
-88,The University of Tokyo,Teaching Score,88.1
-89,University of British Columbia,Teaching Score,62.9
-90,École Polytechnique Fédérale de Lausanne,Teaching Score,65.6
-91,KU Leuven,Teaching Score,59.7
-92,Universität Heidelberg,Teaching Score,67.2
-93,Monash University,Teaching Score,56.9
-94,Chinese University of Hong Kong,Teaching Score,59.1
-95,McGill University,Teaching Score,62.0
-96,Paris Sciences et Lettres – PSL Research University Paris,Teaching Score,68.2
-97,University of Illinois at Urbana-Champaign,Teaching Score,67.1
-98,Karolinska Institute,Teaching Score,51.1
-99,University of Texas at Austin,Teaching Score,66.2
-100,University of Oxford,International Outlook Score,96.2
-101,Harvard University,International Outlook Score,80.5
-102,University of Cambridge,International Outlook Score,95.8
-103,Stanford University,International Outlook Score,79.8
-104,Massachusetts Institute of Technology,International Outlook Score,89.3
-105,California Institute of Technology,International Outlook Score,83.6
-106,Princeton University,International Outlook Score,80.3
-107,"University of California, Berkeley",International Outlook Score,78.4
-108,Yale University,International Outlook Score,70.9
-109,Imperial College London,International Outlook Score,97.5
-110,Columbia University,International Outlook Score,79.9
-111,ETH Zurich,International Outlook Score,97.7
-112,The University of Chicago,International Outlook Score,74.2
-113,University of Pennsylvania,International Outlook Score,71.5
-114,Johns Hopkins University,International Outlook Score,75.3
-115,Tsinghua University,International Outlook Score,40.3
-116,Peking University,International Outlook Score,65.0
-117,University of Toronto,International Outlook Score,89.7
-118,National University of Singapore,International Outlook Score,94.0
-119,Cornell University,International Outlook Score,76.9
-120,"University of California, Los Angeles",International Outlook Score,65.0
-121,UCL,International Outlook Score,96.7
-122,University of Michigan-Ann Arbor,International Outlook Score,59.2
-123,New York University,International Outlook Score,74.7
-124,Duke University,International Outlook Score,68.0
-125,Northwestern University,International Outlook Score,67.0
-126,University of Washington,International Outlook Score,63.0
-127,Carnegie Mellon University,International Outlook Score,80.1
-128,University of Edinburgh,International Outlook Score,95.6
-129,Technical University of Munich,International Outlook Score,77.7
-130,University of Hong Kong,International Outlook Score,98.7
-131,"University of California, San Diego",International Outlook Score,67.8
-132,LMU Munich,International Outlook Score,70.5
-133,University of Melbourne,International Outlook Score,93.6
-134,King’s College London,International Outlook Score,96.1
-135,"Nanyang Technological University, Singapore",International Outlook Score,94.5
-136,London School of Economics and Political Science,International Outlook Score,92.8
-137,Georgia Institute of Technology,International Outlook Score,81.2
-138,The University of Tokyo,International Outlook Score,43.3
-139,University of British Columbia,International Outlook Score,94.8
-140,École Polytechnique Fédérale de Lausanne,International Outlook Score,98.0
-141,KU Leuven,International Outlook Score,76.8
-142,Universität Heidelberg,International Outlook Score,71.2
-143,Monash University,International Outlook Score,91.0
-144,Chinese University of Hong Kong,International Outlook Score,92.5
-145,McGill University,International Outlook Score,91.0
-146,Paris Sciences et Lettres – PSL Research University Paris,International Outlook Score,76.3
-147,University of Illinois at Urbana-Champaign,International Outlook Score,56.2
-148,Karolinska Institute,International Outlook Score,87.3
-149,University of Texas at Austin,International Outlook Score,40.1
-150,University of Oxford,Industry Income Score,74.9
-151,Harvard University,Industry Income Score,49.5
-152,University of Cambridge,Industry Income Score,54.2
-153,Stanford University,Industry Income Score,65.0
-154,Massachusetts Institute of Technology,Industry Income Score,90.9
-155,California Institute of Technology,Industry Income Score,89.8
-156,Princeton University,Industry Income Score,66.0
-157,"University of California, Berkeley",Industry Income Score,76.8
-158,Yale University,Industry Income Score,55.0
-159,Imperial College London,Industry Income Score,59.8
-160,Columbia University,Industry Income Score,44.8
-161,ETH Zurich,Industry Income Score,59.1
-162,The University of Chicago,Industry Income Score,56.2
-163,University of Pennsylvania,Industry Income Score,75.8
-164,Johns Hopkins University,Industry Income Score,89.5
-165,Tsinghua University,Industry Income Score,100.0
-166,Peking University,Industry Income Score,91.8
-167,University of Toronto,Industry Income Score,65.5
-168,National University of Singapore,Industry Income Score,87.0
-169,Cornell University,Industry Income Score,40.4
-170,"University of California, Los Angeles",Industry Income Score,58.8
-171,UCL,Industry Income Score,44.5
-172,University of Michigan-Ann Arbor,Industry Income Score,48.7
-173,New York University,Industry Income Score,44.6
-174,Duke University,Industry Income Score,99.6
-175,Northwestern University,Industry Income Score,85.0
-176,University of Washington,Industry Income Score,53.9
-177,Carnegie Mellon University,Industry Income Score,55.2
-178,University of Edinburgh,Industry Income Score,40.9
-179,Technical University of Munich,Industry Income Score,100.0
-180,University of Hong Kong,Industry Income Score,60.6
-181,"University of California, San Diego",Industry Income Score,93.0
-182,LMU Munich,Industry Income Score,100.0
-183,University of Melbourne,Industry Income Score,78.1
-184,King’s College London,Industry Income Score,45.6
-185,"Nanyang Technological University, Singapore",Industry Income Score,84.5
-186,London School of Economics and Political Science,Industry Income Score,37.8
-187,Georgia Institute of Technology,Industry Income Score,64.9
-188,The University of Tokyo,Industry Income Score,86.7
-189,University of British Columbia,Industry Income Score,47.9
-190,École Polytechnique Fédérale de Lausanne,Industry Income Score,71.7
-191,KU Leuven,Industry Income Score,99.2
-192,Universität Heidelberg,Industry Income Score,55.7
-193,Monash University,Industry Income Score,78.4
-194,Chinese University of Hong Kong,Industry Income Score,60.9
-195,McGill University,Industry Income Score,43.5
-196,Paris Sciences et Lettres – PSL Research University Paris,Industry Income Score,78.8
-197,University of Illinois at Urbana-Champaign,Industry Income Score,50.1
-198,Karolinska Institute,Industry Income Score,66.4
-199,University of Texas at Austin,Industry Income Score,51.3
-200,University of Oxford,Research Score,99.7
-201,Harvard University,Research Score,99.0
-202,University of Cambridge,Research Score,99.5
-203,Stanford University,Research Score,96.7
-204,Massachusetts Institute of Technology,Research Score,93.6
-205,California Institute of Technology,Research Score,97.0
-206,Princeton University,Research Score,95.9
-207,"University of California, Berkeley",Research Score,95.8
-208,Yale University,Research Score,92.7
-209,Imperial College London,Research Score,90.8
-210,Columbia University,Research Score,87.7
-211,ETH Zurich,Research Score,95.4
-212,The University of Chicago,Research Score,88.8
-213,University of Pennsylvania,Research Score,88.8
-214,Johns Hopkins University,Research Score,91.5
-215,Tsinghua University,Research Score,97.4
-216,Peking University,Research Score,96.7
-217,University of Toronto,Research Score,93.3
-218,National University of Singapore,Research Score,93.0
-219,Cornell University,Research Score,86.1
-220,"University of California, Los Angeles",Research Score,88.9
-221,UCL,Research Score,85.4
-222,University of Michigan-Ann Arbor,Research Score,84.6
-223,New York University,Research Score,84.0
-224,Duke University,Research Score,76.2
-225,Northwestern University,Research Score,80.7
-226,University of Washington,Research Score,82.8
-227,Carnegie Mellon University,Research Score,81.8
-228,University of Edinburgh,Research Score,74.5
-229,Technical University of Munich,Research Score,82.2
-230,University of Hong Kong,Research Score,74.1
-231,"University of California, San Diego",Research Score,77.2
-232,LMU Munich,Research Score,78.3
-233,University of Melbourne,Research Score,75.9
-234,King’s College London,Research Score,72.9
-235,"Nanyang Technological University, Singapore",Research Score,77.9
-236,London School of Economics and Political Science,Research Score,74.3
-237,Georgia Institute of Technology,Research Score,75.9
-238,The University of Tokyo,Research Score,91.4
-239,University of British Columbia,Research Score,73.1
-240,École Polytechnique Fédérale de Lausanne,Research Score,70.7
-241,KU Leuven,Research Score,74.9
-242,Universität Heidelberg,Research Score,61.5
-243,Monash University,Research Score,68.7
-244,Chinese University of Hong Kong,Research Score,61.1
-245,McGill University,Research Score,72.4
-246,Paris Sciences et Lettres – PSL Research University Paris,Research Score,73.5
-247,University of Illinois at Urbana-Champaign,Research Score,78.9
-248,Karolinska Institute,Research Score,68.8
-249,University of Texas at Austin,Research Score,73.1
-250,University of Oxford,Citations Score,99.0
-251,Harvard University,Citations Score,99.3
-252,University of Cambridge,Citations Score,97.0
-253,Stanford University,Citations Score,99.8
-254,Massachusetts Institute of Technology,Citations Score,99.8
-255,California Institute of Technology,Citations Score,97.3
-256,Princeton University,Citations Score,99.1
-257,"University of California, Berkeley",Citations Score,99.0
-258,Yale University,Citations Score,97.0
-259,Imperial College London,Citations Score,98.3
-260,Columbia University,Citations Score,97.1
-261,ETH Zurich,Citations Score,90.7
-262,The University of Chicago,Citations Score,97.7
-263,University of Pennsylvania,Citations Score,97.0
-264,Johns Hopkins University,Citations Score,97.0
-265,Tsinghua University,Citations Score,88.0
-266,Peking University,Citations Score,80.4
-267,University of Toronto,Citations Score,92.8
-268,National University of Singapore,Citations Score,90.2
-269,Cornell University,Citations Score,97.3
-270,"University of California, Los Angeles",Citations Score,95.4
-271,UCL,Citations Score,97.9
-272,University of Michigan-Ann Arbor,Citations Score,93.6
-273,New York University,Citations Score,95.0
-274,Duke University,Citations Score,95.7
-275,Northwestern University,Citations Score,97.5
-276,University of Washington,Citations Score,98.9
-277,Carnegie Mellon University,Citations Score,98.7
-278,University of Edinburgh,Citations Score,97.1
-279,Technical University of Munich,Citations Score,84.5
-280,University of Hong Kong,Citations Score,92.4
-281,"University of California, San Diego",Citations Score,98.2
-282,LMU Munich,Citations Score,87.4
-283,University of Melbourne,Citations Score,85.8
-284,King’s College London,Citations Score,98.2
-285,"Nanyang Technological University, Singapore",Citations Score,87.2
-286,London School of Economics and Political Science,Citations Score,95.1
-287,Georgia Institute of Technology,Citations Score,91.4
-288,The University of Tokyo,Citations Score,55.5
-289,University of British Columbia,Citations Score,88.8
-290,École Polytechnique Fédérale de Lausanne,Citations Score,84.5
-291,KU Leuven,Citations Score,86.7
-292,Universität Heidelberg,Citations Score,96.0
-293,Monash University,Citations Score,90.4
-294,Chinese University of Hong Kong,Citations Score,95.7
-295,McGill University,Citations Score,82.5
-296,Paris Sciences et Lettres – PSL Research University Paris,Citations Score,75.5
-297,University of Illinois at Urbana-Champaign,Citations Score,78.1
-298,Karolinska Institute,Citations Score,94.0
-299,University of Texas at Austin,Citations Score,87.5
+0,University of Oxford,Overall,96.4
+1,Harvard University,Overall,95.2
+2,University of Cambridge,Overall,94.8
+3,Stanford University,Overall,94.8
+4,Massachusetts Institute of Technology,Overall,94.2
+5,California Institute of Technology,Overall,94.1
+6,Princeton University,Overall,92.4
+7,"University of California, Berkeley",Overall,92.1
+8,Yale University,Overall,91.4
+9,Imperial College London,Overall,90.4
+10,Columbia University,Overall,89.4
+11,ETH Zurich,Overall,89.4
+12,The University of Chicago,Overall,88.9
+13,University of Pennsylvania,Overall,88.8
+14,Johns Hopkins University,Overall,88.3
+15,Tsinghua University,Overall,88.2
+16,Peking University,Overall,88.1
+17,University of Toronto,Overall,87.4
+18,National University of Singapore,Overall,87.1
+19,Cornell University,Overall,85.9
+20,"University of California, Los Angeles",Overall,85.8
+21,UCL,Overall,85.7
+22,University of Michigan-Ann Arbor,Overall,82.9
+23,New York University,Overall,82.7
+24,Duke University,Overall,82.6
+25,Northwestern University,Overall,82.1
+26,University of Washington,Overall,82.1
+27,Carnegie Mellon University,Overall,81.1
+28,University of Edinburgh,Overall,79.8
+29,Technical University of Munich,Overall,79.3
+30,University of Hong Kong,Overall,78.5
+31,"University of California, San Diego",Overall,78.1
+32,LMU Munich,Overall,77.7
+33,University of Melbourne,Overall,77.6
+34,King’s College London,Overall,77.1
+35,"Nanyang Technological University, Singapore",Overall,77.0
+36,London School of Economics and Political Science,Overall,76.5
+37,Georgia Institute of Technology,Overall,76.0
+38,The University of Tokyo,Overall,75.9
+39,University of British Columbia,Overall,75.7
+40,École Polytechnique Fédérale de Lausanne,Overall,75.4
+41,KU Leuven,Overall,74.6
+42,Universität Heidelberg,Overall,74.1
+43,Monash University,Overall,73.6
+44,Chinese University of Hong Kong,Overall,73.2
+45,McGill University,Overall,73.0
+46,Paris Sciences et Lettres – PSL Research University Paris,Overall,72.9
+47,University of Illinois at Urbana-Champaign,Overall,72.7
+48,Karolinska Institute,Overall,72.4
+49,University of Texas at Austin,Overall,72.3
+50,University of Oxford,Teaching,92.3
+51,Harvard University,Teaching,94.8
+52,University of Cambridge,Teaching,90.9
+53,Stanford University,Teaching,94.2
+54,Massachusetts Institute of Technology,Teaching,90.7
+55,California Institute of Technology,Teaching,90.9
+56,Princeton University,Teaching,87.6
+57,"University of California, Berkeley",Teaching,86.4
+58,Yale University,Teaching,92.6
+59,Imperial College London,Teaching,82.8
+60,Columbia University,Teaching,89.4
+61,ETH Zurich,Teaching,82.6
+62,The University of Chicago,Teaching,86.5
+63,University of Pennsylvania,Teaching,86.0
+64,Johns Hopkins University,Teaching,79.4
+65,Tsinghua University,Teaching,90.1
+66,Peking University,Teaching,92.5
+67,University of Toronto,Teaching,77.3
+68,National University of Singapore,Teaching,76.4
+69,Cornell University,Teaching,80.2
+70,"University of California, Los Angeles",Teaching,80.4
+71,UCL,Teaching,74.5
+72,University of Michigan-Ann Arbor,Teaching,79.3
+73,New York University,Teaching,74.2
+74,Duke University,Teaching,78.1
+75,Northwestern University,Teaching,71.7
+76,University of Washington,Teaching,71.6
+77,Carnegie Mellon University,Teaching,65.4
+78,University of Edinburgh,Teaching,66.9
+79,Technical University of Munich,Teaching,69.8
+80,University of Hong Kong,Teaching,65.6
+81,"University of California, San Diego",Teaching,60.2
+82,LMU Munich,Teaching,67.3
+83,University of Melbourne,Teaching,67.1
+84,King’s College London,Teaching,58.0
+85,"Nanyang Technological University, Singapore",Teaching,60.9
+86,London School of Economics and Political Science,Teaching,59.2
+87,Georgia Institute of Technology,Teaching,60.2
+88,The University of Tokyo,Teaching,88.1
+89,University of British Columbia,Teaching,62.9
+90,École Polytechnique Fédérale de Lausanne,Teaching,65.6
+91,KU Leuven,Teaching,59.7
+92,Universität Heidelberg,Teaching,67.2
+93,Monash University,Teaching,56.9
+94,Chinese University of Hong Kong,Teaching,59.1
+95,McGill University,Teaching,62.0
+96,Paris Sciences et Lettres – PSL Research University Paris,Teaching,68.2
+97,University of Illinois at Urbana-Champaign,Teaching,67.1
+98,Karolinska Institute,Teaching,51.1
+99,University of Texas at Austin,Teaching,66.2
+100,University of Oxford,International Outlook,96.2
+101,Harvard University,International Outlook,80.5
+102,University of Cambridge,International Outlook,95.8
+103,Stanford University,International Outlook,79.8
+104,Massachusetts Institute of Technology,International Outlook,89.3
+105,California Institute of Technology,International Outlook,83.6
+106,Princeton University,International Outlook,80.3
+107,"University of California, Berkeley",International Outlook,78.4
+108,Yale University,International Outlook,70.9
+109,Imperial College London,International Outlook,97.5
+110,Columbia University,International Outlook,79.9
+111,ETH Zurich,International Outlook,97.7
+112,The University of Chicago,International Outlook,74.2
+113,University of Pennsylvania,International Outlook,71.5
+114,Johns Hopkins University,International Outlook,75.3
+115,Tsinghua University,International Outlook,40.3
+116,Peking University,International Outlook,65.0
+117,University of Toronto,International Outlook,89.7
+118,National University of Singapore,International Outlook,94.0
+119,Cornell University,International Outlook,76.9
+120,"University of California, Los Angeles",International Outlook,65.0
+121,UCL,International Outlook,96.7
+122,University of Michigan-Ann Arbor,International Outlook,59.2
+123,New York University,International Outlook,74.7
+124,Duke University,International Outlook,68.0
+125,Northwestern University,International Outlook,67.0
+126,University of Washington,International Outlook,63.0
+127,Carnegie Mellon University,International Outlook,80.1
+128,University of Edinburgh,International Outlook,95.6
+129,Technical University of Munich,International Outlook,77.7
+130,University of Hong Kong,International Outlook,98.7
+131,"University of California, San Diego",International Outlook,67.8
+132,LMU Munich,International Outlook,70.5
+133,University of Melbourne,International Outlook,93.6
+134,King’s College London,International Outlook,96.1
+135,"Nanyang Technological University, Singapore",International Outlook,94.5
+136,London School of Economics and Political Science,International Outlook,92.8
+137,Georgia Institute of Technology,International Outlook,81.2
+138,The University of Tokyo,International Outlook,43.3
+139,University of British Columbia,International Outlook,94.8
+140,École Polytechnique Fédérale de Lausanne,International Outlook,98.0
+141,KU Leuven,International Outlook,76.8
+142,Universität Heidelberg,International Outlook,71.2
+143,Monash University,International Outlook,91.0
+144,Chinese University of Hong Kong,International Outlook,92.5
+145,McGill University,International Outlook,91.0
+146,Paris Sciences et Lettres – PSL Research University Paris,International Outlook,76.3
+147,University of Illinois at Urbana-Champaign,International Outlook,56.2
+148,Karolinska Institute,International Outlook,87.3
+149,University of Texas at Austin,International Outlook,40.1
+150,University of Oxford,Industry Income,74.9
+151,Harvard University,Industry Income,49.5
+152,University of Cambridge,Industry Income,54.2
+153,Stanford University,Industry Income,65.0
+154,Massachusetts Institute of Technology,Industry Income,90.9
+155,California Institute of Technology,Industry Income,89.8
+156,Princeton University,Industry Income,66.0
+157,"University of California, Berkeley",Industry Income,76.8
+158,Yale University,Industry Income,55.0
+159,Imperial College London,Industry Income,59.8
+160,Columbia University,Industry Income,44.8
+161,ETH Zurich,Industry Income,59.1
+162,The University of Chicago,Industry Income,56.2
+163,University of Pennsylvania,Industry Income,75.8
+164,Johns Hopkins University,Industry Income,89.5
+165,Tsinghua University,Industry Income,100.0
+166,Peking University,Industry Income,91.8
+167,University of Toronto,Industry Income,65.5
+168,National University of Singapore,Industry Income,87.0
+169,Cornell University,Industry Income,40.4
+170,"University of California, Los Angeles",Industry Income,58.8
+171,UCL,Industry Income,44.5
+172,University of Michigan-Ann Arbor,Industry Income,48.7
+173,New York University,Industry Income,44.6
+174,Duke University,Industry Income,99.6
+175,Northwestern University,Industry Income,85.0
+176,University of Washington,Industry Income,53.9
+177,Carnegie Mellon University,Industry Income,55.2
+178,University of Edinburgh,Industry Income,40.9
+179,Technical University of Munich,Industry Income,100.0
+180,University of Hong Kong,Industry Income,60.6
+181,"University of California, San Diego",Industry Income,93.0
+182,LMU Munich,Industry Income,100.0
+183,University of Melbourne,Industry Income,78.1
+184,King’s College London,Industry Income,45.6
+185,"Nanyang Technological University, Singapore",Industry Income,84.5
+186,London School of Economics and Political Science,Industry Income,37.8
+187,Georgia Institute of Technology,Industry Income,64.9
+188,The University of Tokyo,Industry Income,86.7
+189,University of British Columbia,Industry Income,47.9
+190,École Polytechnique Fédérale de Lausanne,Industry Income,71.7
+191,KU Leuven,Industry Income,99.2
+192,Universität Heidelberg,Industry Income,55.7
+193,Monash University,Industry Income,78.4
+194,Chinese University of Hong Kong,Industry Income,60.9
+195,McGill University,Industry Income,43.5
+196,Paris Sciences et Lettres – PSL Research University Paris,Industry Income,78.8
+197,University of Illinois at Urbana-Champaign,Industry Income,50.1
+198,Karolinska Institute,Industry Income,66.4
+199,University of Texas at Austin,Industry Income,51.3
+200,University of Oxford,Research,99.7
+201,Harvard University,Research,99.0
+202,University of Cambridge,Research,99.5
+203,Stanford University,Research,96.7
+204,Massachusetts Institute of Technology,Research,93.6
+205,California Institute of Technology,Research,97.0
+206,Princeton University,Research,95.9
+207,"University of California, Berkeley",Research,95.8
+208,Yale University,Research,92.7
+209,Imperial College London,Research,90.8
+210,Columbia University,Research,87.7
+211,ETH Zurich,Research,95.4
+212,The University of Chicago,Research,88.8
+213,University of Pennsylvania,Research,88.8
+214,Johns Hopkins University,Research,91.5
+215,Tsinghua University,Research,97.4
+216,Peking University,Research,96.7
+217,University of Toronto,Research,93.3
+218,National University of Singapore,Research,93.0
+219,Cornell University,Research,86.1
+220,"University of California, Los Angeles",Research,88.9
+221,UCL,Research,85.4
+222,University of Michigan-Ann Arbor,Research,84.6
+223,New York University,Research,84.0
+224,Duke University,Research,76.2
+225,Northwestern University,Research,80.7
+226,University of Washington,Research,82.8
+227,Carnegie Mellon University,Research,81.8
+228,University of Edinburgh,Research,74.5
+229,Technical University of Munich,Research,82.2
+230,University of Hong Kong,Research,74.1
+231,"University of California, San Diego",Research,77.2
+232,LMU Munich,Research,78.3
+233,University of Melbourne,Research,75.9
+234,King’s College London,Research,72.9
+235,"Nanyang Technological University, Singapore",Research,77.9
+236,London School of Economics and Political Science,Research,74.3
+237,Georgia Institute of Technology,Research,75.9
+238,The University of Tokyo,Research,91.4
+239,University of British Columbia,Research,73.1
+240,École Polytechnique Fédérale de Lausanne,Research,70.7
+241,KU Leuven,Research,74.9
+242,Universität Heidelberg,Research,61.5
+243,Monash University,Research,68.7
+244,Chinese University of Hong Kong,Research,61.1
+245,McGill University,Research,72.4
+246,Paris Sciences et Lettres – PSL Research University Paris,Research,73.5
+247,University of Illinois at Urbana-Champaign,Research,78.9
+248,Karolinska Institute,Research,68.8
+249,University of Texas at Austin,Research,73.1
+250,University of Oxford,Citations,99.0
+251,Harvard University,Citations,99.3
+252,University of Cambridge,Citations,97.0
+253,Stanford University,Citations,99.8
+254,Massachusetts Institute of Technology,Citations,99.8
+255,California Institute of Technology,Citations,97.3
+256,Princeton University,Citations,99.1
+257,"University of California, Berkeley",Citations,99.0
+258,Yale University,Citations,97.0
+259,Imperial College London,Citations,98.3
+260,Columbia University,Citations,97.1
+261,ETH Zurich,Citations,90.7
+262,The University of Chicago,Citations,97.7
+263,University of Pennsylvania,Citations,97.0
+264,Johns Hopkins University,Citations,97.0
+265,Tsinghua University,Citations,88.0
+266,Peking University,Citations,80.4
+267,University of Toronto,Citations,92.8
+268,National University of Singapore,Citations,90.2
+269,Cornell University,Citations,97.3
+270,"University of California, Los Angeles",Citations,95.4
+271,UCL,Citations,97.9
+272,University of Michigan-Ann Arbor,Citations,93.6
+273,New York University,Citations,95.0
+274,Duke University,Citations,95.7
+275,Northwestern University,Citations,97.5
+276,University of Washington,Citations,98.9
+277,Carnegie Mellon University,Citations,98.7
+278,University of Edinburgh,Citations,97.1
+279,Technical University of Munich,Citations,84.5
+280,University of Hong Kong,Citations,92.4
+281,"University of California, San Diego",Citations,98.2
+282,LMU Munich,Citations,87.4
+283,University of Melbourne,Citations,85.8
+284,King’s College London,Citations,98.2
+285,"Nanyang Technological University, Singapore",Citations,87.2
+286,London School of Economics and Political Science,Citations,95.1
+287,Georgia Institute of Technology,Citations,91.4
+288,The University of Tokyo,Citations,55.5
+289,University of British Columbia,Citations,88.8
+290,École Polytechnique Fédérale de Lausanne,Citations,84.5
+291,KU Leuven,Citations,86.7
+292,Universität Heidelberg,Citations,96.0
+293,Monash University,Citations,90.4
+294,Chinese University of Hong Kong,Citations,95.7
+295,McGill University,Citations,82.5
+296,Paris Sciences et Lettres – PSL Research University Paris,Citations,75.5
+297,University of Illinois at Urbana-Champaign,Citations,78.1
+298,Karolinska Institute,Citations,94.0
+299,University of Texas at Austin,Citations,87.5

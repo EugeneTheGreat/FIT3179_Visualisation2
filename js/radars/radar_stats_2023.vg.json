@@ -250,7 +250,9 @@
         "enter": {
           "x": { "signal": "(radius-1) * cos(scale('angular', datum.key))" },
           "y": { "signal": "(radius-1) * sin(scale('angular', datum.key))" },
-          "text": { "field": "key" },
+          "text": {
+            "field": "key"
+          },
           "align": [
             {
               "test": "abs(scale('angular', datum.key)) > PI / 2",

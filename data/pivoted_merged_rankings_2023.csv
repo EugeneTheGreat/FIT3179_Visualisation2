@@ -1,0 +1,301 @@
+,name,key,value
+0,University of Oxford,scores_overall,96.4
+1,Harvard University,scores_overall,95.2
+2,University of Cambridge,scores_overall,94.8
+3,Stanford University,scores_overall,94.8
+4,Massachusetts Institute of Technology,scores_overall,94.2
+5,California Institute of Technology,scores_overall,94.1
+6,Princeton University,scores_overall,92.4
+7,"University of California, Berkeley",scores_overall,92.1
+8,Yale University,scores_overall,91.4
+9,Imperial College London,scores_overall,90.4
+10,Columbia University,scores_overall,89.4
+11,ETH Zurich,scores_overall,89.4
+12,The University of Chicago,scores_overall,88.9
+13,University of Pennsylvania,scores_overall,88.8
+14,Johns Hopkins University,scores_overall,88.3
+15,Tsinghua University,scores_overall,88.2
+16,Peking University,scores_overall,88.1
+17,University of Toronto,scores_overall,87.4
+18,National University of Singapore,scores_overall,87.1
+19,Cornell University,scores_overall,85.9
+20,"University of California, Los Angeles",scores_overall,85.8
+21,UCL,scores_overall,85.7
+22,University of Michigan-Ann Arbor,scores_overall,82.9
+23,New York University,scores_overall,82.7
+24,Duke University,scores_overall,82.6
+25,Northwestern University,scores_overall,82.1
+26,University of Washington,scores_overall,82.1
+27,Carnegie Mellon University,scores_overall,81.1
+28,University of Edinburgh,scores_overall,79.8
+29,Technical University of Munich,scores_overall,79.3
+30,University of Hong Kong,scores_overall,78.5
+31,"University of California, San Diego",scores_overall,78.1
+32,LMU Munich,scores_overall,77.7
+33,University of Melbourne,scores_overall,77.6
+34,King’s College London,scores_overall,77.1
+35,"Nanyang Technological University, Singapore",scores_overall,77.0
+36,London School of Economics and Political Science,scores_overall,76.5
+37,Georgia Institute of Technology,scores_overall,76.0
+38,The University of Tokyo,scores_overall,75.9
+39,University of British Columbia,scores_overall,75.7
+40,École Polytechnique Fédérale de Lausanne,scores_overall,75.4
+41,KU Leuven,scores_overall,74.6
+42,Universität Heidelberg,scores_overall,74.1
+43,Monash University,scores_overall,73.6
+44,Chinese University of Hong Kong,scores_overall,73.2
+45,McGill University,scores_overall,73.0
+46,Paris Sciences et Lettres – PSL Research University Paris,scores_overall,72.9
+47,University of Illinois at Urbana-Champaign,scores_overall,72.7
+48,Karolinska Institute,scores_overall,72.4
+49,University of Texas at Austin,scores_overall,72.3
+50,University of Oxford,scores_teaching,92.3
+51,Harvard University,scores_teaching,94.8
+52,University of Cambridge,scores_teaching,90.9
+53,Stanford University,scores_teaching,94.2
+54,Massachusetts Institute of Technology,scores_teaching,90.7
+55,California Institute of Technology,scores_teaching,90.9
+56,Princeton University,scores_teaching,87.6
+57,"University of California, Berkeley",scores_teaching,86.4
+58,Yale University,scores_teaching,92.6
+59,Imperial College London,scores_teaching,82.8
+60,Columbia University,scores_teaching,89.4
+61,ETH Zurich,scores_teaching,82.6
+62,The University of Chicago,scores_teaching,86.5
+63,University of Pennsylvania,scores_teaching,86.0
+64,Johns Hopkins University,scores_teaching,79.4
+65,Tsinghua University,scores_teaching,90.1
+66,Peking University,scores_teaching,92.5
+67,University of Toronto,scores_teaching,77.3
+68,National University of Singapore,scores_teaching,76.4
+69,Cornell University,scores_teaching,80.2
+70,"University of California, Los Angeles",scores_teaching,80.4
+71,UCL,scores_teaching,74.5
+72,University of Michigan-Ann Arbor,scores_teaching,79.3
+73,New York University,scores_teaching,74.2
+74,Duke University,scores_teaching,78.1
+75,Northwestern University,scores_teaching,71.7
+76,University of Washington,scores_teaching,71.6
+77,Carnegie Mellon University,scores_teaching,65.4
+78,University of Edinburgh,scores_teaching,66.9
+79,Technical University of Munich,scores_teaching,69.8
+80,University of Hong Kong,scores_teaching,65.6
+81,"University of California, San Diego",scores_teaching,60.2
+82,LMU Munich,scores_teaching,67.3
+83,University of Melbourne,scores_teaching,67.1
+84,King’s College London,scores_teaching,58.0
+85,"Nanyang Technological University, Singapore",scores_teaching,60.9
+86,London School of Economics and Political Science,scores_teaching,59.2
+87,Georgia Institute of Technology,scores_teaching,60.2
+88,The University of Tokyo,scores_teaching,88.1
+89,University of British Columbia,scores_teaching,62.9
+90,École Polytechnique Fédérale de Lausanne,scores_teaching,65.6
+91,KU Leuven,scores_teaching,59.7
+92,Universität Heidelberg,scores_teaching,67.2
+93,Monash University,scores_teaching,56.9
+94,Chinese University of Hong Kong,scores_teaching,59.1
+95,McGill University,scores_teaching,62.0
+96,Paris Sciences et Lettres – PSL Research University Paris,scores_teaching,68.2
+97,University of Illinois at Urbana-Champaign,scores_teaching,67.1
+98,Karolinska Institute,scores_teaching,51.1
+99,University of Texas at Austin,scores_teaching,66.2
+100,University of Oxford,scores_international_outlook,96.2
+101,Harvard University,scores_international_outlook,80.5
+102,University of Cambridge,scores_international_outlook,95.8
+103,Stanford University,scores_international_outlook,79.8
+104,Massachusetts Institute of Technology,scores_international_outlook,89.3
+105,California Institute of Technology,scores_international_outlook,83.6
+106,Princeton University,scores_international_outlook,80.3
+107,"University of California, Berkeley",scores_international_outlook,78.4
+108,Yale University,scores_international_outlook,70.9
+109,Imperial College London,scores_international_outlook,97.5
+110,Columbia University,scores_international_outlook,79.9
+111,ETH Zurich,scores_international_outlook,97.7
+112,The University of Chicago,scores_international_outlook,74.2
+113,University of Pennsylvania,scores_international_outlook,71.5
+114,Johns Hopkins University,scores_international_outlook,75.3
+115,Tsinghua University,scores_international_outlook,40.3
+116,Peking University,scores_international_outlook,65.0
+117,University of Toronto,scores_international_outlook,89.7
+118,National University of Singapore,scores_international_outlook,94.0
+119,Cornell University,scores_international_outlook,76.9
+120,"University of California, Los Angeles",scores_international_outlook,65.0
+121,UCL,scores_international_outlook,96.7
+122,University of Michigan-Ann Arbor,scores_international_outlook,59.2
+123,New York University,scores_international_outlook,74.7
+124,Duke University,scores_international_outlook,68.0
+125,Northwestern University,scores_international_outlook,67.0
+126,University of Washington,scores_international_outlook,63.0
+127,Carnegie Mellon University,scores_international_outlook,80.1
+128,University of Edinburgh,scores_international_outlook,95.6
+129,Technical University of Munich,scores_international_outlook,77.7
+130,University of Hong Kong,scores_international_outlook,98.7
+131,"University of California, San Diego",scores_international_outlook,67.8
+132,LMU Munich,scores_international_outlook,70.5
+133,University of Melbourne,scores_international_outlook,93.6
+134,King’s College London,scores_international_outlook,96.1
+135,"Nanyang Technological University, Singapore",scores_international_outlook,94.5
+136,London School of Economics and Political Science,scores_international_outlook,92.8
+137,Georgia Institute of Technology,scores_international_outlook,81.2
+138,The University of Tokyo,scores_international_outlook,43.3
+139,University of British Columbia,scores_international_outlook,94.8
+140,École Polytechnique Fédérale de Lausanne,scores_international_outlook,98.0
+141,KU Leuven,scores_international_outlook,76.8
+142,Universität Heidelberg,scores_international_outlook,71.2
+143,Monash University,scores_international_outlook,91.0
+144,Chinese University of Hong Kong,scores_international_outlook,92.5
+145,McGill University,scores_international_outlook,91.0
+146,Paris Sciences et Lettres – PSL Research University Paris,scores_international_outlook,76.3
+147,University of Illinois at Urbana-Champaign,scores_international_outlook,56.2
+148,Karolinska Institute,scores_international_outlook,87.3
+149,University of Texas at Austin,scores_international_outlook,40.1
+150,University of Oxford,scores_industry_income,74.9
+151,Harvard University,scores_industry_income,49.5
+152,University of Cambridge,scores_industry_income,54.2
+153,Stanford University,scores_industry_income,65.0
+154,Massachusetts Institute of Technology,scores_industry_income,90.9
+155,California Institute of Technology,scores_industry_income,89.8
+156,Princeton University,scores_industry_income,66.0
+157,"University of California, Berkeley",scores_industry_income,76.8
+158,Yale University,scores_industry_income,55.0
+159,Imperial College London,scores_industry_income,59.8
+160,Columbia University,scores_industry_income,44.8
+161,ETH Zurich,scores_industry_income,59.1
+162,The University of Chicago,scores_industry_income,56.2
+163,University of Pennsylvania,scores_industry_income,75.8
+164,Johns Hopkins University,scores_industry_income,89.5
+165,Tsinghua University,scores_industry_income,100.0
+166,Peking University,scores_industry_income,91.8
+167,University of Toronto,scores_industry_income,65.5
+168,National University of Singapore,scores_industry_income,87.0
+169,Cornell University,scores_industry_income,40.4
+170,"University of California, Los Angeles",scores_industry_income,58.8
+171,UCL,scores_industry_income,44.5
+172,University of Michigan-Ann Arbor,scores_industry_income,48.7
+173,New York University,scores_industry_income,44.6
+174,Duke University,scores_industry_income,99.6
+175,Northwestern University,scores_industry_income,85.0
+176,University of Washington,scores_industry_income,53.9
+177,Carnegie Mellon University,scores_industry_income,55.2
+178,University of Edinburgh,scores_industry_income,40.9
+179,Technical University of Munich,scores_industry_income,100.0
+180,University of Hong Kong,scores_industry_income,60.6
+181,"University of California, San Diego",scores_industry_income,93.0
+182,LMU Munich,scores_industry_income,100.0
+183,University of Melbourne,scores_industry_income,78.1
+184,King’s College London,scores_industry_income,45.6
+185,"Nanyang Technological University, Singapore",scores_industry_income,84.5
+186,London School of Economics and Political Science,scores_industry_income,37.8
+187,Georgia Institute of Technology,scores_industry_income,64.9
+188,The University of Tokyo,scores_industry_income,86.7
+189,University of British Columbia,scores_industry_income,47.9
+190,École Polytechnique Fédérale de Lausanne,scores_industry_income,71.7
+191,KU Leuven,scores_industry_income,99.2
+192,Universität Heidelberg,scores_industry_income,55.7
+193,Monash University,scores_industry_income,78.4
+194,Chinese University of Hong Kong,scores_industry_income,60.9
+195,McGill University,scores_industry_income,43.5
+196,Paris Sciences et Lettres – PSL Research University Paris,scores_industry_income,78.8
+197,University of Illinois at Urbana-Champaign,scores_industry_income,50.1
+198,Karolinska Institute,scores_industry_income,66.4
+199,University of Texas at Austin,scores_industry_income,51.3
+200,University of Oxford,scores_research,99.7
+201,Harvard University,scores_research,99.0
+202,University of Cambridge,scores_research,99.5
+203,Stanford University,scores_research,96.7
+204,Massachusetts Institute of Technology,scores_research,93.6
+205,California Institute of Technology,scores_research,97.0
+206,Princeton University,scores_research,95.9
+207,"University of California, Berkeley",scores_research,95.8
+208,Yale University,scores_research,92.7
+209,Imperial College London,scores_research,90.8
+210,Columbia University,scores_research,87.7
+211,ETH Zurich,scores_research,95.4
+212,The University of Chicago,scores_research,88.8
+213,University of Pennsylvania,scores_research,88.8
+214,Johns Hopkins University,scores_research,91.5
+215,Tsinghua University,scores_research,97.4
+216,Peking University,scores_research,96.7
+217,University of Toronto,scores_research,93.3
+218,National University of Singapore,scores_research,93.0
+219,Cornell University,scores_research,86.1
+220,"University of California, Los Angeles",scores_research,88.9
+221,UCL,scores_research,85.4
+222,University of Michigan-Ann Arbor,scores_research,84.6
+223,New York University,scores_research,84.0
+224,Duke University,scores_research,76.2
+225,Northwestern University,scores_research,80.7
+226,University of Washington,scores_research,82.8
+227,Carnegie Mellon University,scores_research,81.8
+228,University of Edinburgh,scores_research,74.5
+229,Technical University of Munich,scores_research,82.2
+230,University of Hong Kong,scores_research,74.1
+231,"University of California, San Diego",scores_research,77.2
+232,LMU Munich,scores_research,78.3
+233,University of Melbourne,scores_research,75.9
+234,King’s College London,scores_research,72.9
+235,"Nanyang Technological University, Singapore",scores_research,77.9
+236,London School of Economics and Political Science,scores_research,74.3
+237,Georgia Institute of Technology,scores_research,75.9
+238,The University of Tokyo,scores_research,91.4
+239,University of British Columbia,scores_research,73.1
+240,École Polytechnique Fédérale de Lausanne,scores_research,70.7
+241,KU Leuven,scores_research,74.9
+242,Universität Heidelberg,scores_research,61.5
+243,Monash University,scores_research,68.7
+244,Chinese University of Hong Kong,scores_research,61.1
+245,McGill University,scores_research,72.4
+246,Paris Sciences et Lettres – PSL Research University Paris,scores_research,73.5
+247,University of Illinois at Urbana-Champaign,scores_research,78.9
+248,Karolinska Institute,scores_research,68.8
+249,University of Texas at Austin,scores_research,73.1
+250,University of Oxford,scores_citations,99.0
+251,Harvard University,scores_citations,99.3
+252,University of Cambridge,scores_citations,97.0
+253,Stanford University,scores_citations,99.8
+254,Massachusetts Institute of Technology,scores_citations,99.8
+255,California Institute of Technology,scores_citations,97.3
+256,Princeton University,scores_citations,99.1
+257,"University of California, Berkeley",scores_citations,99.0
+258,Yale University,scores_citations,97.0
+259,Imperial College London,scores_citations,98.3
+260,Columbia University,scores_citations,97.1
+261,ETH Zurich,scores_citations,90.7
+262,The University of Chicago,scores_citations,97.7
+263,University of Pennsylvania,scores_citations,97.0
+264,Johns Hopkins University,scores_citations,97.0
+265,Tsinghua University,scores_citations,88.0
+266,Peking University,scores_citations,80.4
+267,University of Toronto,scores_citations,92.8
+268,National University of Singapore,scores_citations,90.2
+269,Cornell University,scores_citations,97.3
+270,"University of California, Los Angeles",scores_citations,95.4
+271,UCL,scores_citations,97.9
+272,University of Michigan-Ann Arbor,scores_citations,93.6
+273,New York University,scores_citations,95.0
+274,Duke University,scores_citations,95.7
+275,Northwestern University,scores_citations,97.5
+276,University of Washington,scores_citations,98.9
+277,Carnegie Mellon University,scores_citations,98.7
+278,University of Edinburgh,scores_citations,97.1
+279,Technical University of Munich,scores_citations,84.5
+280,University of Hong Kong,scores_citations,92.4
+281,"University of California, San Diego",scores_citations,98.2
+282,LMU Munich,scores_citations,87.4
+283,University of Melbourne,scores_citations,85.8
+284,King’s College London,scores_citations,98.2
+285,"Nanyang Technological University, Singapore",scores_citations,87.2
+286,London School of Economics and Political Science,scores_citations,95.1
+287,Georgia Institute of Technology,scores_citations,91.4
+288,The University of Tokyo,scores_citations,55.5
+289,University of British Columbia,scores_citations,88.8
+290,École Polytechnique Fédérale de Lausanne,scores_citations,84.5
+291,KU Leuven,scores_citations,86.7
+292,Universität Heidelberg,scores_citations,96.0
+293,Monash University,scores_citations,90.4
+294,Chinese University of Hong Kong,scores_citations,95.7
+295,McGill University,scores_citations,82.5
+296,Paris Sciences et Lettres – PSL Research University Paris,scores_citations,75.5
+297,University of Illinois at Urbana-Champaign,scores_citations,78.1
+298,Karolinska Institute,scores_citations,94.0
+299,University of Texas at Austin,scores_citations,87.5

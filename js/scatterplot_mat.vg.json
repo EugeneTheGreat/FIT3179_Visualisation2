@@ -12,21 +12,21 @@
       "scores_citations"
     ],
     "column": [
-        "rank",
-        "scores_overall",
-        "scores_teaching",
-        "scores_international_outlook",
-        "scores_industry_income",
-        "scores_research",
-        "scores_citations"
+      "rank",
+      "scores_overall",
+      "scores_teaching",
+      "scores_international_outlook",
+      "scores_industry_income",
+      "scores_research",
+      "scores_citations"
     ]
   },
   "data": {
     "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/merged_rank_scat_mat.csv"
   },
   "spec": {
-    "width": 90,
-    "height": 90,
+    "width": 100,
+    "height": 100,
     "layer": [
       {
         "params": [
@@ -75,5 +75,10 @@
         }
       }
     ]
+  },
+  "config": {
+    "concat": {
+      "spacing": 10
+    }
   }
 }

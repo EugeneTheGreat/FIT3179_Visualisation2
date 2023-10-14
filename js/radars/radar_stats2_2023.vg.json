@@ -258,6 +258,10 @@
               "padding": 20
             },
             {
+              "test": "abs(scale('angular', datum.key)) < PI / 2",
+              "value": "right"
+            },
+            {
               "value": "center"
             }
           ],

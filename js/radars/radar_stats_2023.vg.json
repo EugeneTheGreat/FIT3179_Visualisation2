@@ -261,8 +261,7 @@
             },
             {
               "test": "abs(scale('angular', datum.key)) < PI / 2",
-              "value": "right",
-              "padding": 20
+              "value": "right"
             },
             {
               "value": "center"

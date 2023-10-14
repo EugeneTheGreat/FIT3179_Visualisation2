@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged_continents.csv"
+  },
+  "width": 600,
+  "height": 450,
+  "params": [
+    {
+      "name": "Year_Selection",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2011,
+        "max": 2023,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.year == Year_Selection"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "bin": {
+        "step": 10
+      },
+      "field": "rank",
+      "type": "ordinal",
+      "title": "University Ranking (Binned)"
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": "Frequency"
+    },
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "legend": {
+        "title": "Continent",
+        "orient": "top"
+      },
+      "scale": {
+        "range": [
+          "#937cb0",
+          "#3a1a1b",
+          "#6e994a",
+          "#be9759",
+          "#5674af",
+          "#b84853"
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "tooltip": [
+          {"field": "Continent", "type": "nominal", "title": "Continent"},
+          {"aggregate": "count", "type": "quantitative", "title": "Frequency"}
+        ]
+      }
+    }
+  ]
+}

@@ -4,7 +4,6 @@
   "width": 1200,
   "height": 550,
   "projection": {"type": "equalEarth"},
-
   "params": [
     {
     "name": "year_selection",
@@ -18,7 +17,6 @@
     }
   }
   ],
-  
   "layer": [
     {
       "data": {

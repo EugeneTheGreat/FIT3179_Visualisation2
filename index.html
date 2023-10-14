@@ -281,12 +281,30 @@
       <p id="sub_para">Some text here...</p>
 
       <div class="vis-container">
-        
+        <div id="histogram"></div>
+
+        <script type="text/javascript">
+          var spec6 = "js/rank_dist_histo.vg.json";
+
+          vegaEmbed('#histogram', spec6).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
       </div>
     </div>
 
   </div>
   <!-- end group 4 -->
+
+  <!-- group 5 -->
+  <div id="group">
+    <h2>Comparing Statistics</h2>
+    <p id="sub_para">Some text here...</p>
+
+    <div class="vis-container">
+    </div>
+  </div>
+  <!-- end group 5 -->
 
 </div> <!-- end page -->
 

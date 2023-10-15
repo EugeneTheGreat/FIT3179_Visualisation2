@@ -1,0 +1,257 @@
+,Score1,Score2,Correlation
+0,Rank,Rank,1.0
+1,Rank,Overall Score,-0.8952
+2,Rank,Overall Score Rank,0.5608
+3,Rank,Teaching Score,-0.808
+4,Rank,Teaching Score Rank,0.7348
+5,Rank,International Outlook Score,-0.1107
+6,Rank,International Outlook Score Rank,0.1007
+7,Rank,Industry Income Score,-0.1904
+8,Rank,Industry Income Score Rank,0.1925
+9,Rank,Research Score,-0.8439
+10,Rank,Research Score Rank,0.7951
+11,Rank,Citations Score,-0.4324
+12,Rank,Citations Score Rank,0.3691
+13,Rank,Number of Students,-0.0895
+14,Rank,Student Staff Ratio,0.1986
+15,Rank,International Students Percentage,-0.2604
+16,Overall Score,Rank,-0.8952
+17,Overall Score,Overall Score,1.0
+18,Overall Score,Overall Score Rank,-0.3149
+19,Overall Score,Teaching Score,0.8842
+20,Overall Score,Teaching Score Rank,-0.6394
+21,Overall Score,International Outlook Score,0.1902
+22,Overall Score,International Outlook Score Rank,-0.0387
+23,Overall Score,Industry Income Score,0.2111
+24,Overall Score,Industry Income Score Rank,-0.0748
+25,Overall Score,Research Score,0.9135
+26,Overall Score,Research Score Rank,-0.7142
+27,Overall Score,Citations Score,0.5204
+28,Overall Score,Citations Score Rank,-0.3112
+29,Overall Score,Number of Students,0.0451
+30,Overall Score,Student Staff Ratio,-0.2391
+31,Overall Score,International Students Percentage,0.3022
+32,Overall Score Rank,Rank,0.5608
+33,Overall Score Rank,Overall Score,-0.3149
+34,Overall Score Rank,Overall Score Rank,1.0
+35,Overall Score Rank,Teaching Score,-0.3847
+36,Overall Score Rank,Teaching Score Rank,0.496
+37,Overall Score Rank,International Outlook Score,0.1162
+38,Overall Score Rank,International Outlook Score Rank,0.2962
+39,Overall Score Rank,Industry Income Score,0.0093
+40,Overall Score Rank,Industry Income Score Rank,0.3932
+41,Overall Score Rank,Research Score,-0.3736
+42,Overall Score Rank,Research Score Rank,0.4725
+43,Overall Score Rank,Citations Score,0.0037
+44,Overall Score Rank,Citations Score Rank,0.3953
+45,Overall Score Rank,Number of Students,-0.0452
+46,Overall Score Rank,Student Staff Ratio,0.1838
+47,Overall Score Rank,International Students Percentage,-0.1825
+48,Teaching Score,Rank,-0.808
+49,Teaching Score,Overall Score,0.8842
+50,Teaching Score,Overall Score Rank,-0.3847
+51,Teaching Score,Teaching Score,1.0
+52,Teaching Score,Teaching Score Rank,-0.8355
+53,Teaching Score,International Outlook Score,-0.0719
+54,Teaching Score,International Outlook Score Rank,0.1207
+55,Teaching Score,Industry Income Score,0.2327
+56,Teaching Score,Industry Income Score Rank,-0.1673
+57,Teaching Score,Research Score,0.8981
+58,Teaching Score,Research Score Rank,-0.7413
+59,Teaching Score,Citations Score,0.1667
+60,Teaching Score,Citations Score Rank,-0.0614
+61,Teaching Score,Number of Students,0.0999
+62,Teaching Score,Student Staff Ratio,-0.2784
+63,Teaching Score,International Students Percentage,0.1227
+64,Teaching Score Rank,Rank,0.7348
+65,Teaching Score Rank,Overall Score,-0.6394
+66,Teaching Score Rank,Overall Score Rank,0.496
+67,Teaching Score Rank,Teaching Score,-0.8355
+68,Teaching Score Rank,Teaching Score Rank,1.0
+69,Teaching Score Rank,International Outlook Score,0.2051
+70,Teaching Score Rank,International Outlook Score Rank,-0.162
+71,Teaching Score Rank,Industry Income Score,-0.2084
+72,Teaching Score Rank,Industry Income Score Rank,0.2538
+73,Teaching Score Rank,Research Score,-0.7061
+74,Teaching Score Rank,Research Score Rank,0.7305
+75,Teaching Score Rank,Citations Score,0.0359
+76,Teaching Score Rank,Citations Score Rank,-0.0323
+77,Teaching Score Rank,Number of Students,-0.1932
+78,Teaching Score Rank,Student Staff Ratio,0.1706
+79,Teaching Score Rank,International Students Percentage,-0.014
+80,International Outlook Score,Rank,-0.1107
+81,International Outlook Score,Overall Score,0.1902
+82,International Outlook Score,Overall Score Rank,0.1162
+83,International Outlook Score,Teaching Score,-0.0719
+84,International Outlook Score,Teaching Score Rank,0.2051
+85,International Outlook Score,International Outlook Score,1.0
+86,International Outlook Score,International Outlook Score Rank,-0.7154
+87,International Outlook Score,Industry Income Score,-0.0378
+88,International Outlook Score,Industry Income Score Rank,0.1721
+89,International Outlook Score,Research Score,0.0654
+90,International Outlook Score,Research Score Rank,0.0115
+91,International Outlook Score,Citations Score,0.1994
+92,International Outlook Score,Citations Score Rank,-0.0652
+93,International Outlook Score,Number of Students,-0.2086
+94,International Outlook Score,Student Staff Ratio,0.0174
+95,International Outlook Score,International Students Percentage,0.784
+96,International Outlook Score Rank,Rank,0.1007
+97,International Outlook Score Rank,Overall Score,-0.0387
+98,International Outlook Score Rank,Overall Score Rank,0.2962
+99,International Outlook Score Rank,Teaching Score,0.1207
+100,International Outlook Score Rank,Teaching Score Rank,-0.162
+101,International Outlook Score Rank,International Outlook Score,-0.7154
+102,International Outlook Score Rank,International Outlook Score Rank,1.0
+103,International Outlook Score Rank,Industry Income Score,0.1452
+104,International Outlook Score Rank,Industry Income Score Rank,0.0529
+105,International Outlook Score Rank,Research Score,0.0161
+106,International Outlook Score Rank,Research Score Rank,0.01
+107,International Outlook Score Rank,Citations Score,-0.0352
+108,International Outlook Score Rank,Citations Score Rank,0.2798
+109,International Outlook Score Rank,Number of Students,0.2138
+110,International Outlook Score Rank,Student Staff Ratio,-0.0502
+111,International Outlook Score Rank,International Students Percentage,-0.7012
+112,Industry Income Score,Rank,-0.1904
+113,Industry Income Score,Overall Score,0.2111
+114,Industry Income Score,Overall Score Rank,0.0093
+115,Industry Income Score,Teaching Score,0.2327
+116,Industry Income Score,Teaching Score Rank,-0.2084
+117,Industry Income Score,International Outlook Score,-0.0378
+118,Industry Income Score,International Outlook Score Rank,0.1452
+119,Industry Income Score,Industry Income Score,1.0
+120,Industry Income Score,Industry Income Score Rank,-0.6585
+121,Industry Income Score,Research Score,0.2898
+122,Industry Income Score,Research Score Rank,-0.2954
+123,Industry Income Score,Citations Score,-0.1645
+124,Industry Income Score,Citations Score Rank,0.2775
+125,Industry Income Score,Number of Students,-0.0292
+126,Industry Income Score,Student Staff Ratio,0.2064
+127,Industry Income Score,International Students Percentage,-0.1267
+128,Industry Income Score Rank,Rank,0.1925
+129,Industry Income Score Rank,Overall Score,-0.0748
+130,Industry Income Score Rank,Overall Score Rank,0.3932
+131,Industry Income Score Rank,Teaching Score,-0.1673
+132,Industry Income Score Rank,Teaching Score Rank,0.2538
+133,Industry Income Score Rank,International Outlook Score,0.1721
+134,Industry Income Score Rank,International Outlook Score Rank,0.0529
+135,Industry Income Score Rank,Industry Income Score,-0.6585
+136,Industry Income Score Rank,Industry Income Score Rank,1.0
+137,Industry Income Score Rank,Research Score,-0.2025
+138,Industry Income Score Rank,Research Score Rank,0.3142
+139,Industry Income Score Rank,Citations Score,0.2743
+140,Industry Income Score Rank,Citations Score Rank,-0.0804
+141,Industry Income Score Rank,Number of Students,-0.0046
+142,Industry Income Score Rank,Student Staff Ratio,-0.1751
+143,Industry Income Score Rank,International Students Percentage,0.1473
+144,Research Score,Rank,-0.8439
+145,Research Score,Overall Score,0.9135
+146,Research Score,Overall Score Rank,-0.3736
+147,Research Score,Teaching Score,0.8981
+148,Research Score,Teaching Score Rank,-0.7061
+149,Research Score,International Outlook Score,0.0654
+150,Research Score,International Outlook Score Rank,0.0161
+151,Research Score,Industry Income Score,0.2898
+152,Research Score,Industry Income Score Rank,-0.2025
+153,Research Score,Research Score,1.0
+154,Research Score,Research Score Rank,-0.8847
+155,Research Score,Citations Score,0.1789
+156,Research Score,Citations Score Rank,-0.0577
+157,Research Score,Number of Students,0.1627
+158,Research Score,Student Staff Ratio,-0.1428
+159,Research Score,International Students Percentage,0.1916
+160,Research Score Rank,Rank,0.7951
+161,Research Score Rank,Overall Score,-0.7142
+162,Research Score Rank,Overall Score Rank,0.4725
+163,Research Score Rank,Teaching Score,-0.7413
+164,Research Score Rank,Teaching Score Rank,0.7305
+165,Research Score Rank,International Outlook Score,0.0115
+166,Research Score Rank,International Outlook Score Rank,0.01
+167,Research Score Rank,Industry Income Score,-0.2954
+168,Research Score Rank,Industry Income Score Rank,0.3142
+169,Research Score Rank,Research Score,-0.8847
+170,Research Score Rank,Research Score Rank,1.0
+171,Research Score Rank,Citations Score,0.0285
+172,Research Score Rank,Citations Score Rank,-0.0425
+173,Research Score Rank,Number of Students,-0.2281
+174,Research Score Rank,Student Staff Ratio,0.0227
+175,Research Score Rank,International Students Percentage,-0.1043
+176,Citations Score,Rank,-0.4324
+177,Citations Score,Overall Score,0.5204
+178,Citations Score,Overall Score Rank,0.0037
+179,Citations Score,Teaching Score,0.1667
+180,Citations Score,Teaching Score Rank,0.0359
+181,Citations Score,International Outlook Score,0.1994
+182,Citations Score,International Outlook Score Rank,-0.0352
+183,Citations Score,Industry Income Score,-0.1645
+184,Citations Score,Industry Income Score Rank,0.2743
+185,Citations Score,Research Score,0.1789
+186,Citations Score,Research Score Rank,0.0285
+187,Citations Score,Citations Score,1.0
+188,Citations Score,Citations Score Rank,-0.7471
+189,Citations Score,Number of Students,-0.1517
+190,Citations Score,Student Staff Ratio,-0.1936
+191,Citations Score,International Students Percentage,0.2032
+192,Citations Score Rank,Rank,0.3691
+193,Citations Score Rank,Overall Score,-0.3112
+194,Citations Score Rank,Overall Score Rank,0.3953
+195,Citations Score Rank,Teaching Score,-0.0614
+196,Citations Score Rank,Teaching Score Rank,-0.0323
+197,Citations Score Rank,International Outlook Score,-0.0652
+198,Citations Score Rank,International Outlook Score Rank,0.2798
+199,Citations Score Rank,Industry Income Score,0.2775
+200,Citations Score Rank,Industry Income Score Rank,-0.0804
+201,Citations Score Rank,Research Score,-0.0577
+202,Citations Score Rank,Research Score Rank,-0.0425
+203,Citations Score Rank,Citations Score,-0.7471
+204,Citations Score Rank,Citations Score Rank,1.0
+205,Citations Score Rank,Number of Students,0.1616
+206,Citations Score Rank,Student Staff Ratio,0.1748
+207,Citations Score Rank,International Students Percentage,-0.1584
+208,Number of Students,Rank,-0.0895
+209,Number of Students,Overall Score,0.0451
+210,Number of Students,Overall Score Rank,-0.0452
+211,Number of Students,Teaching Score,0.0999
+212,Number of Students,Teaching Score Rank,-0.1932
+213,Number of Students,International Outlook Score,-0.2086
+214,Number of Students,International Outlook Score Rank,0.2138
+215,Number of Students,Industry Income Score,-0.0292
+216,Number of Students,Industry Income Score Rank,-0.0046
+217,Number of Students,Research Score,0.1627
+218,Number of Students,Research Score Rank,-0.2281
+219,Number of Students,Citations Score,-0.1517
+220,Number of Students,Citations Score Rank,0.1616
+221,Number of Students,Number of Students,1.0
+222,Number of Students,Student Staff Ratio,0.2352
+223,Number of Students,International Students Percentage,-0.2184
+224,Student Staff Ratio,Rank,0.1986
+225,Student Staff Ratio,Overall Score,-0.2391
+226,Student Staff Ratio,Overall Score Rank,0.1838
+227,Student Staff Ratio,Teaching Score,-0.2784
+228,Student Staff Ratio,Teaching Score Rank,0.1706
+229,Student Staff Ratio,International Outlook Score,0.0174
+230,Student Staff Ratio,International Outlook Score Rank,-0.0502
+231,Student Staff Ratio,Industry Income Score,0.2064
+232,Student Staff Ratio,Industry Income Score Rank,-0.1751
+233,Student Staff Ratio,Research Score,-0.1428
+234,Student Staff Ratio,Research Score Rank,0.0227
+235,Student Staff Ratio,Citations Score,-0.1936
+236,Student Staff Ratio,Citations Score Rank,0.1748
+237,Student Staff Ratio,Number of Students,0.2352
+238,Student Staff Ratio,Student Staff Ratio,1.0
+239,Student Staff Ratio,International Students Percentage,-0.1074
+240,International Students Percentage,Rank,-0.2604
+241,International Students Percentage,Overall Score,0.3022
+242,International Students Percentage,Overall Score Rank,-0.1825
+243,International Students Percentage,Teaching Score,0.1227
+244,International Students Percentage,Teaching Score Rank,-0.014
+245,International Students Percentage,International Outlook Score,0.784
+246,International Students Percentage,International Outlook Score Rank,-0.7012
+247,International Students Percentage,Industry Income Score,-0.1267
+248,International Students Percentage,Industry Income Score Rank,0.1473
+249,International Students Percentage,Research Score,0.1916
+250,International Students Percentage,Research Score Rank,-0.1043
+251,International Students Percentage,Citations Score,0.2032
+252,International Students Percentage,Citations Score Rank,-0.1584
+253,International Students Percentage,Number of Students,-0.2184
+254,International Students Percentage,Student Staff Ratio,-0.1074
+255,International Students Percentage,International Students Percentage,1.0

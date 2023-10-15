@@ -3,22 +3,22 @@
   "title": "Correlation Between Factors Influencing University Ranking",
   "repeat": {
     "row": [
-      "rank",
-      "scores_overall",
-      "scores_teaching",
-      "scores_international_outlook",
-      "scores_industry_income",
-      "scores_research",
-      "scores_citations"
+      "Rank",
+      "Overall Score",
+      "Teaching Score",
+      "International Outlook Score",
+      "Industry Income Score",
+      "Research Score",
+      "Citations Score"
     ],
     "column": [
-      "rank",
-      "scores_overall",
-      "scores_teaching",
-      "scores_international_outlook",
-      "scores_industry_income",
-      "scores_research",
-      "scores_citations"
+      "Rank",
+      "Overall Score",
+      "Teaching Score",
+      "International Outlook Score",
+      "Industry Income Score",
+      "Research Score",
+      "Citations Score"
     ]
   },
   "data": {
@@ -78,7 +78,7 @@
   },
   "config": {
     "concat": {
-      "spacing": 10
+      "spacing": 5
     }
   }
 }

@@ -5,6 +5,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/corr_heat.csv"
   },
+  "title": "Correlation Between Parameters Over The Years",
   "encoding": {
     "x": {
       "field": "Score1",
@@ -37,6 +38,11 @@
           "legend": {
             "direction": "horizontal",
             "gradientLength": 120
+          },
+          "scale": {
+            "type": "threshold",
+            "domain": [-1, -0.5, 0, 0.5, 1],
+            "range": ["#d43d51", "#e67f83", "#f0b8b8", "#aab3c5", "#657a9a", "#164571"]
           }
         }
       }

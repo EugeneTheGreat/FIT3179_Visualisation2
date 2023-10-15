@@ -50,9 +50,13 @@
   <div class="row">
 
     <h2>University Rankings & Scorings</h2>
-    <p id="sub_para">University of Oxford has been ranked the top 1 university in the world for 7 consecutive years since 2017. </p>
+    <p id="sub_para">University of Oxford has been ranked the top 1 university in the world for 7 consecutive years since 2017. 
+      Monash University has always been the top 100 ranked university in the world since 2013. As a "Monashian", we are glad that 
+      Monash has been ranked top 50 in the world in 2023! 
+    </p>
 
     <p id="filter_button">Select the range of university rankings below:</p>
+    
     <!-- Buttons -->
     <div class="buttons">
       <button type="button" id="r1Button" onclick="toggleRankVisibilityTop20()">Top 25</button> 
@@ -243,12 +247,12 @@
     <p id="sub_para">Some text here...</p>
 
     <div class="vis-container">
-      <div id="scatterplot_mat"></div>
+      <div id="heat_map"></div>
 
         <script type="text/javascript">
 
-        var spec4 = "js/scatterplot_mat.vg.json";
-        vegaEmbed('#scatterplot_mat', spec4).then(function(result) {
+        var spec4 = "js/corr_heatmap.vg.json";
+        vegaEmbed('#heat_map', spec4).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
       </script>

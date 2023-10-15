@@ -35,8 +35,8 @@
       "y": {
         "field": "name", 
         "type": "nominal", 
-        "title": "University Name",
-        "sort": "x"
+        "sort": "x",
+        "title": "University Name"
       }
     },
     "layer": [

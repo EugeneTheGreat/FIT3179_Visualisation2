@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 820,
+  "height": 820,
+  "data": {
+    "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/corr_heat.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "Score1",
+      "type": "nominal",
+      "axis": {
+        "title": "",
+        "labelAngle": -35,
+        "labelFontSize": 11
+      },
+      "sort": null
+    },
+    "y": {
+      "field": "Score2",
+      "type": "nominal",
+      "axis": {
+        "title": "",
+        "labelFontSize": 11
+      },
+      "sort": null
+    }
+  },
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "field": "Correlation",
+          "type": "quantitative",
+          "title": "Correlation",
+          "legend": {
+            "direction": "horizontal",
+            "gradientLength": 120
+          }
+        }
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {
+          "field": "Correlation",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "config": {
+    "axis": { "grid": true, "tickBand": "extent" }
+  }
+}

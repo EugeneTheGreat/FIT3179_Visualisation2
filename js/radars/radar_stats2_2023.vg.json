@@ -10,7 +10,7 @@
     { "name": "radius", "update": "width / 2" },
     {
       "name": "University_Selection",
-      "value": "University of Oxford",
+      "value": "Harvard University",
       "bind": {
         "input": "select",
         "options": [

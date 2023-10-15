@@ -5,7 +5,10 @@
   "data": {
     "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/corr_heat.csv"
   },
-  "title": "Correlation Between Parameters Over The Years",
+  "title": {
+    "text": "Correlation Between Parameters Over The Years",
+    "fontSize": 16
+  },
   "encoding": {
     "x": {
       "field": "Score1",
@@ -13,7 +16,8 @@
       "axis": {
         "title": "",
         "labelAngle": -35,
-        "labelFontSize": 11
+        "labelFont": "Poppins",
+        "labelFontSize": 12
       },
       "sort": null
     },
@@ -22,29 +26,87 @@
       "type": "nominal",
       "axis": {
         "title": "",
-        "labelFontSize": 11
+        "labelFont": "Poppins",
+        "labelFontSize": 12
       },
       "sort": null
     }
   },
   "layer": [
     {
-      "mark": "rect",
+      "mark": {
+        "type": "rect",
+        "stroke": "white"
+      },
+      "params": [
+        {
+          "name": "hover_area",
+          "select": {
+            "type": "point",
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
       "encoding": {
         "color": {
           "field": "Correlation",
           "type": "quantitative",
           "title": "Correlation",
           "legend": {
-            "direction": "horizontal",
-            "gradientLength": 120
+            "direction": "vertical",
+            "gradientLength": 120,
+            "titleFontSize": 14,
+            "labelFont": "Poppins",
+            "labelFontSize": 12
           },
           "scale": {
             "type": "threshold",
             "domain": [-1, -0.5, 0, 0.5, 1],
-            "range": ["#d43d51", "#e67f83", "#f0b8b8", "#aab3c5", "#657a9a", "#164571"]
+            "range": [
+              "#d43d51",
+              "#e67f83",
+              "#f0b8b8",
+              "#aab3c5",
+              "#657a9a",
+              "#164571"
+            ]
           }
-        }
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hover_area",
+            "empty": false,
+            "value": 4
+          },
+          "value": 1
+        },
+        "tooltip": [
+          {
+            "field": "Score1",
+            "type": "nominal",
+            "title": "Parameter 1",
+            "format": {
+              "font": "Poppins"
+            }
+          },
+          {
+            "field": "Score2",
+            "type": "nominal",
+            "title": "Parameter 2",
+            "format": {
+              "font": "Poppins"
+            }
+          },
+          {
+            "field": "Correlation",
+            "type": "quantitative",
+            "title": "Correlation",
+            "format": {
+              "font": "Poppins"
+            }
+          }
+        ]
       }
     },
     {
@@ -52,8 +114,37 @@
       "encoding": {
         "text": {
           "field": "Correlation",
-          "type": "quantitative"
-        }
+          "type": "quantitative",
+          "format": {
+            "font": "Poppins"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Score1",
+            "type": "nominal",
+            "title": "Parameter 1",
+            "format": {
+              "font": "Poppins"
+            }
+          },
+          {
+            "field": "Score2",
+            "type": "nominal",
+            "title": "Parameter 2",
+            "format": {
+              "font": "Poppins"
+            }
+          },
+          {
+            "field": "Correlation",
+            "type": "quantitative",
+            "title": "Correlation",
+            "format": {
+              "font": "Poppins"
+            }
+          }
+        ]
       }
     }
   ],

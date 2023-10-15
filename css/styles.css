@@ -37,9 +37,19 @@ p {
 }
 
 #main {
-  width: 1450px;
+  width: 1460px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.footer {
+  font-family: "Poppins";
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer {
+  text-align: left;
 }
 
 #main_para {
@@ -58,10 +68,9 @@ p {
 }
 
 #choropleth_map {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 80px;
-  margin-bottom: 50px;
+  left: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 #heat_map {
@@ -245,4 +254,9 @@ p {
 @font-face {
   font-family: Poppins;
   src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(Poppins-Bold.ttf);
 }

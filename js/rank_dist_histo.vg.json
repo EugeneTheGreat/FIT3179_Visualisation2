@@ -3,6 +3,10 @@
   "data": {
     "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/rankings_cleaned_merged_continents.csv"
   },
+  "title": {
+    "text": "Continents' Distribution of University Ranking Over The Years",
+    "fontSize": 16
+  },
   "width": 600,
   "height": 450,
   "params": [
@@ -30,19 +34,32 @@
       },
       "field": "rank",
       "type": "ordinal",
-      "title": "University Ranking (Binned)"
+      "axis": {
+        "title": "University Ranking (Binned)",
+        "titleFontSize": 14,
+        "labelFont": "Poppins",
+        "labelFontSize": 12
+      }
     },
     "y": {
       "aggregate": "count",
       "type": "quantitative",
-      "title": "Frequency"
+      "axis": {
+        "title": "Frequency",
+        "titleFontSize": 14,
+        "labelFont": "Poppins",
+        "labelFontSize": 12
+      }
     },
     "color": {
       "field": "Continent",
       "type": "nominal",
       "legend": {
         "title": "Continent",
-        "orient": "top"
+        "orient": "top",
+        "titleFontSize": 14,
+        "labelFont": "Poppins",
+        "labelFontSize": 12
       },
       "scale": {
         "range": [
@@ -58,12 +75,32 @@
   },
   "layer": [
     {
-      "mark": "bar",
+      "mark": {
+        "type": "bar"
+      },
+      "params": [
+        {
+          "name": "hover_area",
+          "select": {
+            "type": "point",
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
       "encoding": {
         "tooltip": [
-          {"field": "Continent", "type": "nominal", "title": "Continent"},
-          {"aggregate": "count", "type": "quantitative", "title": "Frequency"}
-        ]
+          { "field": "Continent", "type": "nominal", "title": "Continent" },
+          { "aggregate": "count", "type": "quantitative", "title": "Frequency" }
+        ],
+        "stroke": {
+          "condition": {
+            "param": "hover_area",
+            "empty": false,
+            "value": "white"
+          },
+          "value": null
+        }
       }
     }
   ]

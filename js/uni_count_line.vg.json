@@ -60,9 +60,22 @@
       },
       "layer": [
         {
+          "params": [
+            {
+              "name": "continent",
+              "select": { "type": "point", "fields": ["Continent"] },
+              "bind": "legend"
+            }
+          ],
           "mark": {
             "type": "line",
             "point": true
+          },
+          "encoding": {
+            "opacity": {
+              "condition": { "param": "continent", "value": 1 },
+              "value": 0.2
+            }
           }
         },
         {

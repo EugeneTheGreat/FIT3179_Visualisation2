@@ -23,11 +23,38 @@
         "step": 1,
         "name": "Select Year: "
       }
+    },
+    {
+      "name": "Continent_Selection",
+      "value": "Asia",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "labels": [
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "name": "Continent: "
+      }
     }
   ],
   "transform": [
     {
       "filter": "datum.year == Year_Selection"
+    },
+    {
+      "filter": "datum.Continent == Continent_Selection"
     }
   ],
   "encoding": {
@@ -52,27 +79,6 @@
         "titleFontSize": 14,
         "labelFont": "Poppins",
         "labelFontSize": 12
-      }
-    },
-    "color": {
-      "field": "Continent",
-      "type": "nominal",
-      "legend": {
-        "title": "Continent",
-        "orient": "top",
-        "titleFontSize": 14,
-        "labelFont": "Poppins",
-        "labelFontSize": 12
-      },
-      "scale": {
-        "range": [
-          "#937cb0",
-          "#3a1a1b",
-          "#6e994a",
-          "#be9759",
-          "#5674af",
-          "#b84853"
-        ]
       }
     }
   },
@@ -103,6 +109,35 @@
             "value": "white"
           },
           "value": null
+        },
+        "color": {
+          "condition": [
+            {
+              "test": "datum['Continent'] == 'Africa'",
+              "value": "#937cb0"
+            },
+            {
+              "test": "datum['Continent'] == 'Asia'",
+              "value": "#3a1a1b"
+            },
+            {
+              "test": "datum['Continent'] == 'Europe'",
+              "value": "#6e994a"
+            },
+            {
+              "test": "datum['Continent'] == 'North America'",
+              "value": "#be9759"
+            },
+            {
+              "test": "datum['Continent'] == 'Oceania'",
+              "value": "#5674af"
+            },
+            {
+              "test": "datum['Continent'] == 'South America'",
+              "value": "#b84853"
+            }
+          ],
+          "value": "#164571"
         }
       }
     }

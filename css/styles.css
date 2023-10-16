@@ -133,6 +133,8 @@ p {
 #filter_button {
   font-size: 16px;
   text-align: center;
+  margin-bottom: 0px;
+  margin-top: 30px;
   font-family: PoppinsBold;
   color: #363636;
 }
@@ -263,7 +265,7 @@ p {
 }
 
 #line1 {
-  margin-left: 14px;
+  margin-left: 10px;
   margin-right: 12px;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -271,7 +273,7 @@ p {
 }
 
 #histogram {
-  margin-left: 14px;
+  margin-left: 10px;
   margin-right: 12px;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -344,6 +346,7 @@ p {
   border-color: silver;
   border-radius: 3px !important;
   padding: 5px !important;
+  margin-top: 10px;
 }
 
 @font-face {

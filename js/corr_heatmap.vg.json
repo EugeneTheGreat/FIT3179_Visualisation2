@@ -122,6 +122,13 @@
             "font": "Poppins"
           }
         },
+        "color": {
+          "condition": {
+            "test": "datum.Correlation == 1",
+            "value": "white"
+          },
+          "value": "black"
+        },
         "tooltip": [
           {
             "field": "Score1",

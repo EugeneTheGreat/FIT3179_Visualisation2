@@ -17,20 +17,22 @@
 <div id="main", class="page"> <!-- start page -->
 
 <!-- Title and description -->
-      <h1>THE World University Rankings</h1>
+  <div id="group">
+    <h1><span id="cerise_red">T</span><span id="east_side">H</span><span id="fun_blue">E</span> World University Rankings</h1>
       <h3>From 2011 - 2023</h3>
       <p id="main_para">The Times Higher Education (THE) World University Rankings provides definitive source of data on higher education in the world. 
-        It is the only measurement evaluating universities for teaching, research, knowledge transfer, and international outlook while also emphasising on 
+        It is the only measurement evaluating universities for <span id="bold"> teaching, research, knowledge transfer</span>, and <span id="bold">international outlook</span> while also emphasising on 
         the universities' research. THE uses 13 carefully calibrated performance metrics to provide the most comprehensive and balanced comparisons, which are grouped
-        into 5 areas namely, Teaching, Research, Citations, International Outlook, and Industry Income. Thus, 
+        into 5 areas namely, <span id="bold"> Teaching, Research, Citations, International Outlook</span>, and <span id="bold"> Industry Income </span>. Thus, 
         it is one of the most popular and widely used world university rankings in the education industry.</p>
+  </div>
   <!-- end Title and description -->
 
   <!-- group 1 -->
   <div id="group">
     <h2>Distribution of Universities</h2>
     <p id="sub_para">The university distribution is represented by the percentage of ranked universities the country has for the selected year. 
-        United States of America and United Kingdom have always been the leading country in having high ranked university counts throughout the years.</p>
+        <span id="bold">United States of America</span> and <span id="bold"> United Kingdom </span> have always been the leading country in having high ranked university counts throughout the years.</p>
 
     <div class="vis-container">
       <div id="choropleth_map"></div>
@@ -47,12 +49,12 @@
   <!-- end group 1 -->
 
   <!-- group 2 -->
-  <div class="row">
+  <div class="row", id="group">
 
     <h2>University Rankings & Scorings</h2>
-    <p id="sub_para">University of Oxford has been ranked the top 1 university in the world for 7 consecutive years since 2017. 
+    <p id="sub_para"><span id="bold">University of Oxford</span> has been ranked the <span id="bold">top 1</span> university in the world for <span id="bold">7 consecutive years</span> since 2017. 
       Monash University has always been the top 100 ranked university in the world since 2013. As a "Monashian", we are glad that 
-      Monash has been ranked top 50 in the world in 2023! 
+      <span id="bold">Monash </span> has been ranked <span id="bold">top 50</span> in the world in <span id="bold">2023</span>! 
     </p>
 
     <p id="filter_button">Select the range of university rankings below:</p>
@@ -244,7 +246,7 @@
   <!-- group 3 -->
   <div id="group">
     <h2>How Factors Influence Rankings</h2>
-    <p id="sub_para">THE University Ranking has always been emphasising on research citations. Universities with 
+    <p id="sub_para">THE University Ranking has always been emphasising on <span id="bold">research citations</span>. Universities with 
       higher research output would be expected to have better rankings following the trend. 
     </p>
 
@@ -265,11 +267,11 @@
   <!-- group 4 -->
   <div class="row">
 
-    <div class="column">
+    <div class="column" id="col_group_left">
       <h2>Trend Over The Years</h2>
-      <p id="sub_para">Asia being the largest continent did not really have a high number ranked universities from the start. 
+      <p id="sub_para"><span id="bold">Asia</span> being the largest continent did not really have a high number ranked universities from the start. 
         One of the causes could be economic factors. 
-        The number of ranked universities only started to have a steep growth from 2015. 
+        The number of ranked universities only started to have a <span id="bold">steep growth from 2015</span>. 
       </p>
 
       <div class="vis-container">
@@ -285,10 +287,10 @@
       </div>
     </div>
 
-    <div class="column">
+    <div class="column" id="col_group_right">
       <h2>Ranking Distribution</h2>
-      <p id="sub_para">North America and Europe have had an even distribution of universities in various rankings since 2011.
-        They are known for their string educational systems. Conversely, South America has struggled to establish ranked universities.  
+      <p id="sub_para"><span id="bold">North America</span> and <span id="bold">Europe</span> have had an <span id="bold">even distribution</span> of universities in various rankings since 2011.
+        They are known for their string educational systems. Conversely, <span id="bold">South America</span> has struggled to establish ranked universities.  
       </p>
 
       <div class="vis-container">
@@ -310,15 +312,15 @@
   <!-- group 5 -->
   <div id="group", class="row">
     <h2>Comparing 2023 Statistics</h2>
-    <p id="sub_para">Choose 2 of the top 50 universities in 2023 and compare their scorings.</p>
+    <p id="sub_para">Choose 2 of the <span id="bold">top 50 universities</span> in <span id="bold">2023</span> and compare their scorings.</p>
 
     <div class="columns_3">
-      <p id="sub_para">Overall Score: The overall score given. </p>
-      <p id="sub_para">Teaching Score: Academic & learning environment scoring.</p>
-      <p id="sub_para">International Outlook Score: Scoring based on the proportion of international students, proportion of international staff and international collaboration.</p>
-      <p id="sub_para">Industry Income Score: How well is an institution's commercial impact from their research.</p>
-      <p id="sub_para">Research Score: Scoring of the quality and volume of research at a given institution.</p>
-      <p id="sub_para">Citations Score: Influenced by an institution's research contribution.</p>
+      <p id="sub_para"><span id="bold">Overall Score:</span> The overall score given. </p>
+      <p id="sub_para"><span id="bold">Teaching Score:</span> Academic & learning environment scoring.</p>
+      <p id="sub_para"><span id="bold">International Outlook Score:</span> Scoring based on the proportion of international students, proportion of international staff and international collaboration.</p>
+      <p id="sub_para"><span id="bold">Industry Income Score:</span> How well is an institution's commercial impact from their research.</p>
+      <p id="sub_para"><span id="bold">Research Score:</span> Scoring of the quality and volume of research at a given institution.</p>
+      <p id="sub_para"><span id="bold">Citations Score:</span> Influenced by an institution's research contribution.</p>
     </div>
 
     <div class="columns_3">
@@ -358,7 +360,8 @@
     <hr>
     <p id="footer">Visualised By: See Han Guang</p>
     <p id="footer">Created For: FIT3179 Data Visualisation II Project</p>
-    <p id="footer">Dataset provided by ANDRII KAPATSYN from <a href="https://www.kaggle.com/datasets/r1chardson/the-world-university-rankings-2011-2023?select=2023_rankings.csv">Kaggle</a></p>
+    <p id="footer">Dataset Provided By: ANDRII KAPATSYN </p>
+    <p id="footer">Dataset Retrieved From: <a href="https://www.kaggle.com/datasets/r1chardson/the-world-university-rankings-2011-2023?select=2023_rankings.csv">Kaggle</a></p>
     <p id="footer">Reference: <a href="https://www.timeshighereducation.com/world-university-rankings">THE World University Rankings</a></p>
     
   </div>

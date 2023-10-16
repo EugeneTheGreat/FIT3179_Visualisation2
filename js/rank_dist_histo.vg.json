@@ -7,6 +7,9 @@
     "text": "Continents' Distribution of University Ranking Over The Years",
     "fontSize": 16
   },
+  "background": {
+    "expr": "rgb(250, 250, 248)"
+  },
   "width": 600,
   "height": 450,
   "params": [

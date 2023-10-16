@@ -2,6 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 820,
   "height": 820,
+  "background": {
+    "expr": "rgb(250, 250, 248)"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/EugeneTheGreat/FIT3179_Visualisation2/main/data/corr_heat.csv"
   },

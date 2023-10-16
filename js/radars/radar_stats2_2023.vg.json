@@ -165,7 +165,7 @@
       "name": "color",
       "type": "ordinal",
       "domain": { "data": "table", "field": "name" },
-      "range": { "scheme": "darkgold" }
+      "range": [ "#6b0e23" ]
     }
   ],
 
@@ -221,7 +221,7 @@
           "y": { "value": 0 },
           "x2": { "signal": "radius * cos(scale('angular', datum.key))" },
           "y2": { "signal": "radius * sin(scale('angular', datum.key))" },
-          "stroke": { "value": "lightgray" },
+          "stroke": { "value": "#a8a8a8" },
           "strokeWidth": { "value": 1 }
         }
       }
@@ -236,7 +236,7 @@
           "interpolate": { "value": "linear-closed" },
           "x": { "field": "x2" },
           "y": { "field": "y2" },
-          "stroke": { "value": "lightgray" },
+          "stroke": { "value": "#a8a8a8" },
           "strokeWidth": { "value": 1 }
         }
       }

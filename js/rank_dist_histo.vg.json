@@ -118,7 +118,7 @@
             },
             {
               "test": "datum['Continent'] == 'Asia'",
-              "value": "#3a1a1b"
+              "value": "#493D30"
             },
             {
               "test": "datum['Continent'] == 'Europe'",
@@ -130,11 +130,11 @@
             },
             {
               "test": "datum['Continent'] == 'Oceania'",
-              "value": "#5674af"
+              "value": "#164571"
             },
             {
               "test": "datum['Continent'] == 'South America'",
-              "value": "#b84853"
+              "value": "#F8A488"
             }
           ],
           "value": "#164571"
